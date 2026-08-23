@@ -36,7 +36,3 @@ pyproject.toml — uv project metadata with the dynamic version.
 uv.lock — locked dependency versions.
 .python-version — pinned Python version.
 dump/ — generated snapshots, ignored by git.
-
-## License
-
-See LICENSE.
