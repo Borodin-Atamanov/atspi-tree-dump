@@ -14,6 +14,7 @@ accessibility is enabled. Turn it on with:
 
 kwriteconfig6 --file kdeglobals --group KDE --key AccessibilityEnabled true
 
+or set AccessibilityEnabled=true in the [KDE] group of ~/.config/kdeglobals.
 Then restart the application; without this its windows expose no elements to
 the script.
 
