@@ -17,5 +17,10 @@ if ! PYTHONPATH="$repo_root/src" python3 -m atspi_tree_dump.bump_version --root 
     exit 0
 fi
 
+# Refresh the lock so the project version in uv.lock matches the bumped one.
+if (cd "$repo_root" && uv lock >/dev/null 2>&1); then
+    git add "$repo_root/uv.lock"
+fi
+
 git add "$repo_root/src/atspi_tree_dump/__init__.py"
 exit 0

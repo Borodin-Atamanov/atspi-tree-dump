@@ -10,18 +10,24 @@ Primary target platform: Kubuntu with KDE, Wayland.
 
 ## Requirements
 
-Python 3 with PyGObject and the AT-SPI bindings (gi.Atspi). The at-spi bus
-must be running. Qt and KDE applications expose their accessibility tree only
-when accessibility is enabled: set AccessibilityEnabled=true in the KDE group
-of ~/.config/kdeglobals and restart the application, otherwise its window tree
-stays empty.
+uv (https://docs.astral.sh/uv) manages the project environment, version and
+dependency lock. The system Python packages for PyGObject and AT-SPI
+(python3-gi and gir1.2-atspi-2.0) must be installed for the system Python
+version, and the at-spi bus must be running. Qt and KDE applications expose
+their accessibility tree only when accessibility is enabled: set
+AccessibilityEnabled=true in the KDE group of ~/.config/kdeglobals and restart
+the application, otherwise its window tree stays empty.
 
 ## Usage
 
-python3 atspi_dump_json.py
+uv venv --system-site-packages
+uv run atspi_dump_json.py
 
-The script walks the AT-SPI desktop, finds every top-level window of every
-application, and writes:
+The venv is created with access to the system site packages, so the PyGObject
+and AT-SPI bindings from the system are visible to the project; the project
+version, the Python requirement and the dependency lock are tracked by uv
+(pyproject.toml, uv.lock and .python-version). The script walks the AT-SPI
+desktop, finds every top-level window of every application, and writes:
 
 1. dumps/<window>.json — the raw accessibility tree as-is.
 2. dumps/<window>-filtered.json — the fully filtered flat record list.
@@ -43,8 +49,11 @@ node. Real switches with a checked field are never removed.
 AGENTS.md — mandatory rules for AI agents.
 README.md — this file.
 atspi_dump_json.py — the dump and filtering script.
-hooks/pre-commit — bumps the patch version on every commit.
+hooks/pre-commit — bumps the patch version and refreshes the lock on every commit.
 src/atspi_tree_dump/ — version source and the bump_version module.
+pyproject.toml — uv project metadata with the dynamic version.
+uv.lock — locked dependency versions.
+.python-version — pinned Python version.
 dumps/ — generated snapshots, ignored by git.
 
 ## Version

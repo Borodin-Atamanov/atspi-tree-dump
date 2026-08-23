@@ -1,3 +1,4 @@
 dumps/
 *-dumps/
 __pycache__/
+.venv/
