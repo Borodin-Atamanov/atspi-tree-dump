@@ -1,0 +1,892 @@
+[
+  {
+    "role": "frame",
+    "name": "Wallpaper  — System Settings",
+    "states": [
+      "active",
+      "resizable"
+    ]
+  },
+  {
+    "role": "filler",
+    "name": "Scrollable area"
+  },
+  {
+    "role": "heading",
+    "name": "Wallpaper"
+  },
+  {
+    "role": "check box",
+    "name": "Set for all screens",
+    "checked": false
+  },
+  {
+    "role": "page tab",
+    "name": "Wallpaper",
+    "states": [
+      "focused"
+    ]
+  },
+  {
+    "role": "label",
+    "name": "eDP-1"
+  },
+  {
+    "role": "label",
+    "name": "(1920x1080)"
+  },
+  {
+    "role": "heading",
+    "name": "Wallpaper type:"
+  },
+  {
+    "role": "combo box",
+    "name": "Slideshow"
+  },
+  {
+    "role": "button",
+    "name": "Get New Plugins…"
+  },
+  {
+    "role": "heading",
+    "name": "Positioning:"
+  },
+  {
+    "role": "heading",
+    "name": "Switch dynamic wallpapers:"
+  },
+  {
+    "role": "heading",
+    "name": "Background:"
+  },
+  {
+    "role": "combo box",
+    "name": "Scaled and cropped"
+  },
+  {
+    "role": "combo box",
+    "name": "Based on the day-night cycle"
+  },
+  {
+    "role": "button",
+    "name": "Configure…"
+  },
+  {
+    "role": "radio button",
+    "name": "Blur",
+    "checked": false
+  },
+  {
+    "role": "radio button",
+    "name": "Solid color",
+    "checked": true
+  },
+  {
+    "role": "button",
+    "name": "Color button"
+  },
+  {
+    "role": "heading",
+    "name": "Order:"
+  },
+  {
+    "role": "heading",
+    "name": "Change every:"
+  },
+  {
+    "role": "combo box",
+    "name": "Random"
+  },
+  {
+    "role": "check box",
+    "name": "Group by folders",
+    "checked": false
+  },
+  {
+    "role": "heading",
+    "name": "Folders"
+  },
+  {
+    "role": "button",
+    "name": "Add Folder…"
+  },
+  {
+    "role": "list item",
+    "name": "wallpapers",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "button",
+    "name": "Remove Folder"
+  },
+  {
+    "role": "button",
+    "name": "Open Folder…"
+  },
+  {
+    "role": "heading",
+    "name": "There are no wallpaper locations configured"
+  },
+  {
+    "role": "heading",
+    "name": "Images"
+  },
+  {
+    "role": "button",
+    "name": "Unselect All Slides"
+  },
+  {
+    "role": "button",
+    "name": "Select All Slides"
+  },
+  {
+    "role": "button",
+    "name": "Get New Wallpaper Images…"
+  },
+  {
+    "role": "list item",
+    "name": "Altai",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "button",
+    "name": "Open Containing Folder"
+  },
+  {
+    "role": "button",
+    "name": "Restore wallpaper"
+  },
+  {
+    "role": "button",
+    "name": "Remove Wallpaper"
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Alesya Khoteeva"
+  },
+  {
+    "role": "list item",
+    "name": "Autumn 5.5",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "RJ Quiralta"
+  },
+  {
+    "role": "list item",
+    "name": "By the water",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Maciej Wiklo"
+  },
+  {
+    "role": "list item",
+    "name": "Canopée",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Ken Vermette"
+  },
+  {
+    "role": "list item",
+    "name": "Cascade",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "list item",
+    "name": "Cluster",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "list item",
+    "name": "Coast",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Krystian Zajdel"
+  },
+  {
+    "role": "list item",
+    "name": "Cold Ripple",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Risto Saukonpää"
+  },
+  {
+    "role": "list item",
+    "name": "Colorful Cups",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Dmitri Popov"
+  },
+  {
+    "role": "list item",
+    "name": "Darkest Hour",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "list item",
+    "name": "Elarun",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Nuno Pinheiro"
+  },
+  {
+    "role": "list item",
+    "name": "Evening Glow",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Ian Hex"
+  },
+  {
+    "role": "list item",
+    "name": "Fallen Leaf",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Martin Klapetek"
+  },
+  {
+    "role": "list item",
+    "name": "Flow",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Sandra Smukaste"
+  },
+  {
+    "role": "list item",
+    "name": "Flying Konqui",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Timothée Giet"
+  },
+  {
+    "role": "list item",
+    "name": "Grey",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Sigi Sagi"
+  },
+  {
+    "role": "list item",
+    "name": "Honeywave",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "list item",
+    "name": "Ice Cold",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Santiago Cézar"
+  },
+  {
+    "role": "list item",
+    "name": "Kay",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "ruvkr"
+  },
+  {
+    "role": "list item",
+    "name": "Kite",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "list item",
+    "name": "Kokkini",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "list item",
+    "name": "Kubuntu",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Kubuntu Focus Design"
+  },
+  {
+    "role": "list item",
+    "name": "Kubuntu Black",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "list item",
+    "name": "Kubuntu Light",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Milky Way"
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Mountain"
+  },
+  {
+    "role": "label",
+    "name": "Andy Betts"
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Sub-Arctic"
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Nexus"
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Nuvole"
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "One Stands Out"
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Opal"
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Orionids"
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Pastel Hills"
+  },
+  {
+    "role": "label",
+    "name": "Lionel"
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Patak"
+  },
+  {
+    "role": "label",
+    "name": "Áron Kovács"
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Path"
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Safe Landing"
+  },
+  {
+    "role": "label",
+    "name": "Louis Durrant"
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Scarlet Tree"
+  },
+  {
+    "role": "label",
+    "name": "axo1otl"
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Shell"
+  },
+  {
+    "role": "label",
+    "name": "Lucas Andrade"
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "summer 1am"
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Volna"
+  },
+  {
+    "role": "label",
+    "name": "Nikita Babin"
+  },
+  {
+    "role": "push button menu",
+    "checked": false,
+    "states": [
+      "has-popup"
+    ]
+  },
+  {
+    "role": "label",
+    "name": "Device Auto-Mount"
+  },
+  {
+    "role": "button",
+    "name": "Apply"
+  },
+  {
+    "role": "button",
+    "name": "Defaults"
+  },
+  {
+    "role": "button",
+    "name": "Reset"
+  },
+  {
+    "role": "button",
+    "name": "Help"
+  },
+  {
+    "role": "list item",
+    "name": "Quick Settings",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Mouse & Touchpad",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Input  Output"
+  },
+  {
+    "role": "list item",
+    "name": "Keyboard",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Multimedia",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Game Controller",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Sound",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Display & Monitor",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Accessibility",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Bluetooth",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "name": "Enable Bluetooth",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Connected Devices"
+  },
+  {
+    "role": "list item",
+    "name": "Disks & Cameras",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Thunderbolt",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Printers",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Wi-Fi & Internet",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Networking"
+  },
+  {
+    "role": "list item",
+    "name": "Push Notifications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Wallpaper",
+    "states": [
+      "focused",
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Appearance  Style"
+  },
+  {
+    "role": "list item",
+    "name": "Colors & Themes",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Text & Fonts",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Animations",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Default Applications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Apps  Windows"
+  },
+  {
+    "role": "list item",
+    "name": "Notifications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Window Management",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Activities",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Workspace"
+  },
+  {
+    "role": "heading",
+    "name": "Personalization"
+  },
+  {
+    "role": "heading",
+    "name": "Security  Privacy"
+  },
+  {
+    "role": "heading",
+    "name": "Language  Time"
+  },
+  {
+    "role": "heading",
+    "name": "System"
+  },
+  {
+    "role": "text",
+    "name": "Search",
+    "states": [
+      "editable"
+    ]
+  },
+  {
+    "role": "button",
+    "name": "Clear search"
+  },
+  {
+    "role": "push button menu",
+    "name": "Show menu",
+    "checked": false
+  },
+  {
+    "role": "push button menu",
+    "name": "Show menu",
+    "checked": false
+  }
+]

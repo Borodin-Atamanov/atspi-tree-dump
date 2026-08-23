@@ -1,0 +1,738 @@
+[
+  {
+    "role": "frame",
+    "name": "Accessibility  — System Settings",
+    "states": [
+      "resizable"
+    ]
+  },
+  {
+    "role": "filler",
+    "name": "Scrollable area"
+  },
+  {
+    "role": "heading",
+    "name": "Accessibility"
+  },
+  {
+    "role": "page tab",
+    "name": "Accessibility"
+  },
+  {
+    "role": "list item",
+    "name": "Zoom  Magnifier",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "System Bell",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Modifier Keys",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Keyboard Filters",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Mouse Navigation",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Activation Shortcuts",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Screen Reader",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Color Blindness Correction",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Invert",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Shake Pointer",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Zoom:"
+  },
+  {
+    "role": "heading",
+    "name": "Zoom factor:"
+  },
+  {
+    "role": "heading",
+    "name": "Scroll gesture modifier keys:"
+  },
+  {
+    "role": "radio button",
+    "name": "Full screen",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Show pixel grid at zoom level:"
+  },
+  {
+    "role": "heading",
+    "name": "Pointer appearance:"
+  },
+  {
+    "role": "heading",
+    "name": "Pointer tracking:"
+  },
+  {
+    "role": "combo box",
+    "name": "Keep"
+  },
+  {
+    "role": "combo box",
+    "name": "Push"
+  },
+  {
+    "role": "check box",
+    "name": "Enable focus tracking",
+    "checked": false
+  },
+  {
+    "role": "check box",
+    "name": "Enable text caret tracking",
+    "checked": false
+  },
+  {
+    "role": "radio button",
+    "name": "Magnify region",
+    "checked": false
+  },
+  {
+    "role": "heading",
+    "name": "Width:"
+  },
+  {
+    "role": "heading",
+    "name": "Height:"
+  },
+  {
+    "role": "radio button",
+    "name": "Disabled",
+    "checked": false
+  },
+  {
+    "role": "button",
+    "name": " Meta+Control ",
+    "checked": false
+  },
+  {
+    "role": "button",
+    "name": "Clear Key Sequence"
+  },
+  {
+    "role": "button",
+    "name": "Cancel Key Sequence Recording"
+  },
+  {
+    "role": "button",
+    "name": "Show Contextual Help"
+  },
+  {
+    "role": "label",
+    "name": "Scroll while modifier keys are pressed to zoom"
+  },
+  {
+    "role": "button",
+    "name": "Configure Shortcuts…"
+  },
+  {
+    "role": "label",
+    "name": "Use shortcuts to control zoom"
+  },
+  {
+    "role": "heading",
+    "name": "Audible bell:"
+  },
+  {
+    "role": "heading",
+    "name": "Custom sound:"
+  },
+  {
+    "role": "heading",
+    "name": "Visual bell:"
+  },
+  {
+    "role": "heading",
+    "name": "Duration:"
+  },
+  {
+    "role": "check box",
+    "name": "Enable",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "checked": false
+  },
+  {
+    "role": "button",
+    "name": "Choose audio file"
+  },
+  {
+    "role": "check box",
+    "name": "Enable",
+    "checked": false
+  },
+  {
+    "role": "radio button",
+    "name": "Invert screen colors",
+    "checked": false
+  },
+  {
+    "role": "radio button",
+    "name": "Flash screen",
+    "checked": true
+  },
+  {
+    "role": "button",
+    "name": "Color button"
+  },
+  {
+    "role": "heading",
+    "name": "Sticky keys:"
+  },
+  {
+    "role": "heading",
+    "name": "Feedback:"
+  },
+  {
+    "role": "check box",
+    "name": "Enable",
+    "checked": false
+  },
+  {
+    "role": "check box",
+    "name": "Lock sticky keys",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "name": "Disable when two keys are held down",
+    "checked": false
+  },
+  {
+    "role": "check box",
+    "name": "Ring system bell when modifier keys are used",
+    "checked": false
+  },
+  {
+    "role": "check box",
+    "name": "Ring system bell when locking keys are used",
+    "checked": false
+  },
+  {
+    "role": "check box",
+    "name": "Show notification when modifier or locking keys are used",
+    "checked": false
+  },
+  {
+    "role": "button",
+    "name": "Configure Notifications…"
+  },
+  {
+    "role": "heading",
+    "name": "Slow keys:"
+  },
+  {
+    "role": "heading",
+    "name": "Delay:"
+  },
+  {
+    "role": "heading",
+    "name": "Ring system bell:"
+  },
+  {
+    "role": "heading",
+    "name": "Bounce keys:"
+  },
+  {
+    "role": "check box",
+    "name": "Enable",
+    "checked": false
+  },
+  {
+    "role": "check box",
+    "name": "when any key is pressed",
+    "checked": false
+  },
+  {
+    "role": "check box",
+    "name": "when any key is accepted",
+    "checked": false
+  },
+  {
+    "role": "check box",
+    "name": "when any key is rejected",
+    "checked": false
+  },
+  {
+    "role": "check box",
+    "name": "Enable",
+    "checked": false
+  },
+  {
+    "role": "check box",
+    "name": "Ring system bell when rejected",
+    "checked": false
+  },
+  {
+    "role": "heading",
+    "name": "Use number pad to move pointer:"
+  },
+  {
+    "role": "heading",
+    "name": "Acceleration delay:"
+  },
+  {
+    "role": "heading",
+    "name": "Repeat interval:"
+  },
+  {
+    "role": "heading",
+    "name": "Acceleration time:"
+  },
+  {
+    "role": "heading",
+    "name": "Maximum speed:"
+  },
+  {
+    "role": "heading",
+    "name": "Pointer acceleration:"
+  },
+  {
+    "role": "check box",
+    "name": "Enable",
+    "checked": false
+  },
+  {
+    "role": "heading",
+    "name": "Activation shortcuts:"
+  },
+  {
+    "role": "heading",
+    "name": "When a shortcut is used:"
+  },
+  {
+    "role": "check box",
+    "name": "Enable",
+    "checked": false
+  },
+  {
+    "role": "label",
+    "name": "Press Shift 5 times to enable Sticky Keys"
+  },
+  {
+    "role": "label",
+    "name": "Hold Shift for 8 seconds to enable Slow Keys"
+  },
+  {
+    "role": "check box",
+    "name": "Disable sticky and slow keys after:",
+    "checked": false
+  },
+  {
+    "role": "check box",
+    "name": "Display a confirmation dialog",
+    "checked": false
+  },
+  {
+    "role": "check box",
+    "name": "Ring the system bell",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "name": "Show a notification",
+    "checked": false
+  },
+  {
+    "role": "heading",
+    "name": "The Orca Screen Reader is not installed"
+  },
+  {
+    "role": "label",
+    "name": "Please install it, then close and reopen this window"
+  },
+  {
+    "role": "check box",
+    "name": "Enable Screen Reader",
+    "checked": false
+  },
+  {
+    "role": "button",
+    "name": "Launch Orca Screen Reader Configuration…"
+  },
+  {
+    "role": "label",
+    "name": "If you have trouble with certain colors on the screen, these filters can change them into other colors."
+  },
+  {
+    "role": "heading",
+    "name": "Problematic colors:"
+  },
+  {
+    "role": "heading",
+    "name": "Intensity:"
+  },
+  {
+    "role": "check box",
+    "name": "Enable",
+    "checked": false
+  },
+  {
+    "role": "combo box",
+    "name": "Red & purple (Protanopia)"
+  },
+  {
+    "role": "label",
+    "name": "Mild"
+  },
+  {
+    "role": "label",
+    "name": "Intense"
+  },
+  {
+    "role": "label",
+    "name": "Adjusted colors:"
+  },
+  {
+    "role": "label",
+    "name": "Reds:"
+  },
+  {
+    "role": "label",
+    "name": "Greens:"
+  },
+  {
+    "role": "label",
+    "name": "Blues:"
+  },
+  {
+    "role": "label",
+    "name": "Purples:"
+  },
+  {
+    "role": "heading",
+    "name": "Invert:"
+  },
+  {
+    "role": "check box",
+    "name": "Enable",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Use shortcuts to toggle inverting display and window colors"
+  },
+  {
+    "role": "heading",
+    "name": "Shake pointer to find it:"
+  },
+  {
+    "role": "heading",
+    "name": "Magnification:"
+  },
+  {
+    "role": "check box",
+    "name": "Enable",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Normal"
+  },
+  {
+    "role": "label",
+    "name": "Large"
+  },
+  {
+    "role": "push button menu",
+    "checked": false,
+    "states": [
+      "has-popup"
+    ]
+  },
+  {
+    "role": "label",
+    "name": "Screen Edges"
+  },
+  {
+    "role": "button",
+    "name": "Apply"
+  },
+  {
+    "role": "button",
+    "name": "Defaults"
+  },
+  {
+    "role": "button",
+    "name": "Reset"
+  },
+  {
+    "role": "button",
+    "name": "Help"
+  },
+  {
+    "role": "list item",
+    "name": "Quick Settings",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Mouse & Touchpad",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Input  Output"
+  },
+  {
+    "role": "list item",
+    "name": "Keyboard",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Multimedia",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Game Controller",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Sound",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Display & Monitor",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Accessibility",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Bluetooth",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "name": "Enable Bluetooth",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Connected Devices"
+  },
+  {
+    "role": "list item",
+    "name": "Disks & Cameras",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Thunderbolt",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Printers",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Wi-Fi & Internet",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Networking"
+  },
+  {
+    "role": "list item",
+    "name": "Push Notifications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Wallpaper",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Appearance  Style"
+  },
+  {
+    "role": "list item",
+    "name": "Colors & Themes",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Text & Fonts",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Animations",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Default Applications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Apps  Windows"
+  },
+  {
+    "role": "list item",
+    "name": "Notifications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Window Management",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Activities",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Workspace"
+  },
+  {
+    "role": "heading",
+    "name": "Personalization"
+  },
+  {
+    "role": "heading",
+    "name": "Security  Privacy"
+  },
+  {
+    "role": "heading",
+    "name": "Language  Time"
+  },
+  {
+    "role": "heading",
+    "name": "System"
+  },
+  {
+    "role": "text",
+    "name": "Search",
+    "states": [
+      "editable"
+    ]
+  },
+  {
+    "role": "button",
+    "name": "Clear search"
+  },
+  {
+    "role": "push button menu",
+    "name": "Show menu",
+    "checked": false
+  },
+  {
+    "role": "push button menu",
+    "name": "Show menu",
+    "checked": false
+  }
+]

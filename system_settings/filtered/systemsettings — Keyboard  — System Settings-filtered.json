@@ -1,0 +1,443 @@
+[
+  {
+    "role": "frame",
+    "name": "Keyboard  — System Settings",
+    "states": [
+      "active",
+      "resizable"
+    ]
+  },
+  {
+    "role": "filler",
+    "name": "Scrollable area"
+  },
+  {
+    "role": "heading",
+    "name": "Keyboard"
+  },
+  {
+    "role": "button",
+    "name": "Key Bindings"
+  },
+  {
+    "role": "page tab",
+    "name": "Keyboard",
+    "states": [
+      "focused"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Layouts"
+  },
+  {
+    "role": "button",
+    "name": "Add layout"
+  },
+  {
+    "role": "check box",
+    "name": "Configure Layouts",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Enable"
+  },
+  {
+    "role": "button",
+    "name": " None ",
+    "checked": false
+  },
+  {
+    "role": "button",
+    "name": "Clear Key Sequence"
+  },
+  {
+    "role": "button",
+    "name": "Cancel Key Sequence Recording"
+  },
+  {
+    "role": "push button menu",
+    "name": "More Actions",
+    "checked": false
+  },
+  {
+    "role": "button",
+    "name": " None ",
+    "checked": false
+  },
+  {
+    "role": "push button menu",
+    "name": "More Actions",
+    "checked": false
+  },
+  {
+    "role": "button",
+    "name": " Meta+E ",
+    "checked": false
+  },
+  {
+    "role": "push button menu",
+    "name": "More Actions",
+    "checked": false
+  },
+  {
+    "role": "heading",
+    "name": "Model:"
+  },
+  {
+    "role": "heading",
+    "name": "NumLock on startup:"
+  },
+  {
+    "role": "heading",
+    "name": "Key repeat:"
+  },
+  {
+    "role": "heading",
+    "name": "Test area:"
+  },
+  {
+    "role": "combo box",
+    "name": "Generic | Generic 104-key PC"
+  },
+  {
+    "role": "combo box",
+    "name": "Turn off"
+  },
+  {
+    "role": "check box",
+    "name": "Key repeat",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Delay:"
+  },
+  {
+    "role": "spin button",
+    "name": "Key repeat delay 600 ms",
+    "states": [
+      "editable"
+    ]
+  },
+  {
+    "role": "label",
+    "name": "Rate:"
+  },
+  {
+    "role": "spin button",
+    "name": "Key repeat rate 25 repeats/s",
+    "states": [
+      "editable"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Spare layouts:"
+  },
+  {
+    "role": "heading",
+    "name": "Change layout shortcut:"
+  },
+  {
+    "role": "check box",
+    "checked": false
+  },
+  {
+    "role": "spin button",
+    "name": "Number of spared main layouts",
+    "states": [
+      "editable"
+    ]
+  },
+  {
+    "role": "label",
+    "name": "main layouts"
+  },
+  {
+    "role": "button",
+    "name": "Show Contextual Help"
+  },
+  {
+    "role": "button",
+    "name": " None ",
+    "checked": false
+  },
+  {
+    "role": "label",
+    "name": "or"
+  },
+  {
+    "role": "button",
+    "name": "Configure Switching"
+  },
+  {
+    "role": "push button menu",
+    "checked": false,
+    "states": [
+      "has-popup"
+    ]
+  },
+  {
+    "role": "label",
+    "name": "Touchpad"
+  },
+  {
+    "role": "button",
+    "name": "Apply"
+  },
+  {
+    "role": "button",
+    "name": "Defaults"
+  },
+  {
+    "role": "button",
+    "name": "Reset"
+  },
+  {
+    "role": "button",
+    "name": "Help"
+  },
+  {
+    "role": "list item",
+    "name": "Quick Settings",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Mouse & Touchpad",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Input  Output"
+  },
+  {
+    "role": "list item",
+    "name": "Keyboard",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Multimedia",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Game Controller",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Sound",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Display & Monitor",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Accessibility",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Bluetooth",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "name": "Enable Bluetooth",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Connected Devices"
+  },
+  {
+    "role": "list item",
+    "name": "Disks & Cameras",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Thunderbolt",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Printers",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Wi-Fi & Internet",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Networking"
+  },
+  {
+    "role": "list item",
+    "name": "Push Notifications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Wallpaper",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Appearance  Style"
+  },
+  {
+    "role": "list item",
+    "name": "Colors & Themes",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Text & Fonts",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Animations",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Default Applications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Apps  Windows"
+  },
+  {
+    "role": "list item",
+    "name": "Notifications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Window Management",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Activities",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Workspace"
+  },
+  {
+    "role": "heading",
+    "name": "Personalization"
+  },
+  {
+    "role": "heading",
+    "name": "Security  Privacy"
+  },
+  {
+    "role": "heading",
+    "name": "Language  Time"
+  },
+  {
+    "role": "heading",
+    "name": "System"
+  },
+  {
+    "role": "text",
+    "name": "Search",
+    "states": [
+      "editable"
+    ]
+  },
+  {
+    "role": "button",
+    "name": "Clear search"
+  },
+  {
+    "role": "push button menu",
+    "name": "Show menu",
+    "checked": false
+  },
+  {
+    "role": "list item",
+    "name": "On-Screen Keyboard",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Virtual Keyboard",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Shortcuts",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "push button menu",
+    "name": "Show menu",
+    "checked": false
+  }
+]

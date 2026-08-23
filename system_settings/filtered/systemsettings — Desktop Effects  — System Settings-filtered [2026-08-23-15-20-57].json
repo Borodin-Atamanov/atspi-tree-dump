@@ -1,0 +1,675 @@
+[
+  {
+    "role": "frame",
+    "name": "Desktop Effects  — System Settings",
+    "states": [
+      "resizable"
+    ]
+  },
+  {
+    "role": "filler",
+    "name": "Scrollable area"
+  },
+  {
+    "role": "heading",
+    "name": "Desktop Effects"
+  },
+  {
+    "role": "button",
+    "name": "Get New…"
+  },
+  {
+    "role": "page tab",
+    "name": "Desktop Effects"
+  },
+  {
+    "role": "radio button",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Hide Cursor"
+  },
+  {
+    "role": "label",
+    "name": "Hide mouse cursor on inactivity or keyboard input"
+  },
+  {
+    "role": "label",
+    "name": "Author: KWin development team\nLicense: GPL"
+  },
+  {
+    "role": "button",
+    "name": "Configure…"
+  },
+  {
+    "role": "heading",
+    "name": "Accessibility"
+  },
+  {
+    "role": "radio button",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Mouse Click Animation"
+  },
+  {
+    "role": "label",
+    "name": "Creates an animation whenever a mouse button is clicked. This is useful for screenrecordings/presentations. Activated with a keyboard shortcut"
+  },
+  {
+    "role": "radio button",
+    "checked": false
+  },
+  {
+    "role": "check box",
+    "checked": false
+  },
+  {
+    "role": "heading",
+    "name": "Track Mouse"
+  },
+  {
+    "role": "label",
+    "name": "Display a mouse cursor locating effect; activated with a keyboard shortcut"
+  },
+  {
+    "role": "radio button",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Blur"
+  },
+  {
+    "role": "label",
+    "name": "Blurs the background behind semi-transparent windows"
+  },
+  {
+    "role": "heading",
+    "name": "Appearance"
+  },
+  {
+    "role": "radio button",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Desaturate Unresponsive Applications"
+  },
+  {
+    "role": "label",
+    "name": "Desaturate windows of unresponsive (frozen) applications"
+  },
+  {
+    "role": "label",
+    "name": "Author: Kai Uwe Broulik\nLicense: GPL"
+  },
+  {
+    "role": "radio button",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Fall Apart"
+  },
+  {
+    "role": "label",
+    "name": "Closed windows fall into pieces"
+  },
+  {
+    "role": "radio button",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Highlight Screen Edges and Hot Corners"
+  },
+  {
+    "role": "label",
+    "name": "Highlights screen edges and corners that trigger actions when touched as the cursor approaches them"
+  },
+  {
+    "role": "radio button",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Mouse Mark"
+  },
+  {
+    "role": "label",
+    "name": "Allows you to draw lines on the desktop; activated with a keyboard shortcut"
+  },
+  {
+    "role": "radio button",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Sheet"
+  },
+  {
+    "role": "label",
+    "name": "Make modal dialogs smoothly fly in and out when they are shown or hidden"
+  },
+  {
+    "role": "radio button",
+    "checked": false
+  },
+  {
+    "role": "check box",
+    "checked": false
+  },
+  {
+    "role": "heading",
+    "name": "Thumbnail Aside"
+  },
+  {
+    "role": "label",
+    "name": "Display window thumbnails on the edge of the screen; activated with a keyboard shortcut"
+  },
+  {
+    "role": "radio button",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Touch Points"
+  },
+  {
+    "role": "label",
+    "name": "Visualize touch points"
+  },
+  {
+    "role": "radio button",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Translucency"
+  },
+  {
+    "role": "label",
+    "name": "Make windows translucent under different conditions"
+  },
+  {
+    "role": "label",
+    "name": "Author: Luboš Luňák, Martin Gräßlin\nLicense: GPL"
+  },
+  {
+    "role": "radio button",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Wobbly Windows"
+  },
+  {
+    "role": "label",
+    "name": "Deform windows while they are moving"
+  },
+  {
+    "role": "radio button",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Dialog Parent"
+  },
+  {
+    "role": "label",
+    "name": "Darkens the parent window of the currently active dialog"
+  },
+  {
+    "role": "label",
+    "name": "Author: Rivo Laks, Martin Gräßlin\nLicense: GPL"
+  },
+  {
+    "role": "heading",
+    "name": "Focus"
+  },
+  {
+    "role": "radio button",
+    "checked": false
+  },
+  {
+    "role": "check box",
+    "checked": false
+  },
+  {
+    "role": "heading",
+    "name": "Dim Inactive"
+  },
+  {
+    "role": "label",
+    "name": "Darken inactive windows"
+  },
+  {
+    "role": "radio button",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Dim Screen for Administrator Mode"
+  },
+  {
+    "role": "label",
+    "name": "Darkens the entire screen when requesting root privileges"
+  },
+  {
+    "role": "label",
+    "name": "Author: Martin Flöser, Vlad Zahorodnii\nLicense: GPL"
+  },
+  {
+    "role": "radio button",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Slide Back"
+  },
+  {
+    "role": "label",
+    "name": "Slide back windows when another window is raised"
+  },
+  {
+    "role": "radio button",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Cube"
+  },
+  {
+    "role": "label",
+    "name": "Arrange desktops in a virtual cube; activated with a keyboard shortcut"
+  },
+  {
+    "role": "label",
+    "name": "Author: Vlad Zahorodnii\nLicense: GPL"
+  },
+  {
+    "role": "heading",
+    "name": "Window Management"
+  },
+  {
+    "role": "text",
+    "name": "Search",
+    "states": [
+      "editable"
+    ]
+  },
+  {
+    "role": "button",
+    "name": "Clear search"
+  },
+  {
+    "role": "check box",
+    "checked": false
+  },
+  {
+    "role": "push button menu",
+    "checked": false,
+    "states": [
+      "has-popup"
+    ]
+  },
+  {
+    "role": "label",
+    "name": "Task Switcher"
+  },
+  {
+    "role": "button",
+    "name": "Apply"
+  },
+  {
+    "role": "button",
+    "name": "Defaults"
+  },
+  {
+    "role": "button",
+    "name": "Reset"
+  },
+  {
+    "role": "button",
+    "name": "Help"
+  },
+  {
+    "role": "list item",
+    "name": "Quick Settings",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Mouse & Touchpad",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Input  Output"
+  },
+  {
+    "role": "list item",
+    "name": "Keyboard",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Multimedia",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Game Controller",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Sound",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Display & Monitor",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Accessibility",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Bluetooth",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "name": "Enable Bluetooth",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Connected Devices"
+  },
+  {
+    "role": "list item",
+    "name": "Disks & Cameras",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Thunderbolt",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Printers",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Wi-Fi & Internet",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Networking"
+  },
+  {
+    "role": "list item",
+    "name": "Push Notifications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Wallpaper",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Appearance  Style"
+  },
+  {
+    "role": "list item",
+    "name": "Colors & Themes",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Text & Fonts",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Animations",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Default Applications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Apps  Windows"
+  },
+  {
+    "role": "list item",
+    "name": "Notifications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Window Management",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Activities",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Workspace"
+  },
+  {
+    "role": "heading",
+    "name": "Personalization"
+  },
+  {
+    "role": "heading",
+    "name": "Security  Privacy"
+  },
+  {
+    "role": "heading",
+    "name": "Language  Time"
+  },
+  {
+    "role": "heading",
+    "name": "System"
+  },
+  {
+    "role": "list item",
+    "name": "Recent Files",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "User Feedback",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Region & Language",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "push button menu",
+    "name": "Show menu",
+    "checked": false
+  },
+  {
+    "role": "page tab",
+    "name": "Window Management"
+  },
+  {
+    "role": "list item",
+    "name": "Window Behavior",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Task Switcher",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Desktop Effects",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Window Rules",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "KWin Scripts",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Virtual Desktops",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "push button menu",
+    "name": "Show menu",
+    "checked": false
+  }
+]

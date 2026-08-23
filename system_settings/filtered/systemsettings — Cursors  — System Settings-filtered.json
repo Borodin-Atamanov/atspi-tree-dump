@@ -1,0 +1,437 @@
+[
+  {
+    "role": "frame",
+    "name": "Cursors  — System Settings",
+    "states": [
+      "active",
+      "resizable"
+    ]
+  },
+  {
+    "role": "filler",
+    "name": "Scrollable area"
+  },
+  {
+    "role": "heading",
+    "name": "Cursors"
+  },
+  {
+    "role": "button",
+    "name": "Get New…"
+  },
+  {
+    "role": "button",
+    "name": "Install from File…"
+  },
+  {
+    "role": "button",
+    "name": "&Configure Launch Feedback…"
+  },
+  {
+    "role": "combo box",
+    "name": "Size: 72"
+  },
+  {
+    "role": "page tab",
+    "name": "Cursors",
+    "states": [
+      "focused"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Oxygen Yellow",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "button",
+    "name": "Remove Theme"
+  },
+  {
+    "role": "button",
+    "name": "Restore Cursor Theme"
+  },
+  {
+    "role": "list item",
+    "name": "KDE Classic",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Breeze Light",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Breeze Dark",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Oxygen Black",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Oxygen Blue",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Oxygen White",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Oxygen Zion",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "push button menu",
+    "checked": false,
+    "states": [
+      "has-popup"
+    ]
+  },
+  {
+    "role": "label",
+    "name": "Device Auto-Mount"
+  },
+  {
+    "role": "button",
+    "name": "Apply"
+  },
+  {
+    "role": "button",
+    "name": "Defaults"
+  },
+  {
+    "role": "button",
+    "name": "Reset"
+  },
+  {
+    "role": "button",
+    "name": "Help"
+  },
+  {
+    "role": "list item",
+    "name": "Quick Settings",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Mouse & Touchpad",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Input  Output"
+  },
+  {
+    "role": "list item",
+    "name": "Keyboard",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Multimedia",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Game Controller",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Sound",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Display & Monitor",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Accessibility",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Bluetooth",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "name": "Enable Bluetooth",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Connected Devices"
+  },
+  {
+    "role": "list item",
+    "name": "Disks & Cameras",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Thunderbolt",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Printers",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Wi-Fi & Internet",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Networking"
+  },
+  {
+    "role": "list item",
+    "name": "Push Notifications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Wallpaper",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Appearance  Style"
+  },
+  {
+    "role": "list item",
+    "name": "Colors & Themes",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Text & Fonts",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Animations",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Default Applications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Apps  Windows"
+  },
+  {
+    "role": "list item",
+    "name": "Notifications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Window Management",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Activities",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Workspace"
+  },
+  {
+    "role": "heading",
+    "name": "Personalization"
+  },
+  {
+    "role": "heading",
+    "name": "Security  Privacy"
+  },
+  {
+    "role": "heading",
+    "name": "Language  Time"
+  },
+  {
+    "role": "heading",
+    "name": "System"
+  },
+  {
+    "role": "text",
+    "name": "Search",
+    "states": [
+      "editable"
+    ]
+  },
+  {
+    "role": "button",
+    "name": "Clear search"
+  },
+  {
+    "role": "push button menu",
+    "name": "Show menu",
+    "checked": false
+  },
+  {
+    "role": "page tab",
+    "name": "Colors & Themes",
+    "states": [
+      "focused"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Global Theme",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Colors",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Application Style",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Plasma Style",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Window Decorations",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Icons",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Cursors",
+    "states": [
+      "focused",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "System Sounds",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Splash Screen",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Login Screen (SDDM)",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Boot Splash Screen",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "push button menu",
+    "name": "Show menu",
+    "checked": false
+  }
+]

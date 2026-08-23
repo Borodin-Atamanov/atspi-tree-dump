@@ -1,0 +1,905 @@
+[
+  {
+    "role": "frame",
+    "name": "Spell Check  — System Settings",
+    "states": [
+      "active",
+      "resizable"
+    ]
+  },
+  {
+    "role": "filler",
+    "name": "Scrollable area"
+  },
+  {
+    "role": "label",
+    "name": "No backend like hunspell/aspell/myspell installed"
+  },
+  {
+    "role": "label",
+    "name": "Default language:"
+  },
+  {
+    "role": "combo box",
+    "name": "American English (United States)",
+    "states": [
+      "expandable"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "American English (United States) [variant 0]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "American English (United States) [variant 1]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "American English (United States) [variant 2]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "American English (United States) [with accents]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "American English (United States) [without accents]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Australian English (Australia)",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Australian English (Australia) [variant 0]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Australian English (Australia) [variant 1]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Australian English (Australia) [with accents]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Australian English (Australia) [without accents]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom)",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom) [-ise suffixes and with accents]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom) [-ise suffixes and without accents]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom) [-ise suffixes]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom) [-ize suffixes and with accents]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom) [-ize suffixes and without accents]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom) [-ize suffixes]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom) [variant 0]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom) [variant 1]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom) [with accents]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom) [without accents]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Canadian English (Canada)",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Canadian English (Canada) [variant 0]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Canadian English (Canada) [variant 1]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Canadian English (Canada) [with accents]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Canadian English (Canada) [without accents]",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "panel",
+    "name": "Preferred Languages"
+  },
+  {
+    "role": "list item",
+    "name": "American English (United States)",
+    "checked": true,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "American English (United States) [variant 0]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "American English (United States) [variant 1]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "American English (United States) [variant 2]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "American English (United States) [with accents]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "American English (United States) [without accents]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Australian English (Australia)",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Australian English (Australia) [variant 0]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Australian English (Australia) [variant 1]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Australian English (Australia) [with accents]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Australian English (Australia) [without accents]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom)",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom) [-ise suffixes and with accents]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom) [-ise suffixes and without accents]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom) [-ise suffixes]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom) [-ize suffixes and with accents]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom) [-ize suffixes and without accents]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom) [-ize suffixes]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom) [variant 0]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom) [variant 1]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom) [with accents]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "British English (United Kingdom) [without accents]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Canadian English (Canada)",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Canadian English (Canada) [variant 0]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Canadian English (Canada) [variant 1]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Canadian English (Canada) [with accents]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Canadian English (Canada) [without accents]",
+    "checked": false,
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "panel",
+    "name": "Options"
+  },
+  {
+    "role": "check box",
+    "name": "Enable autodetection of language",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "name": "Enable background spellchecking",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "name": "Automatic spell checking enabled by default",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "name": "Skip all uppercase words",
+    "checked": false
+  },
+  {
+    "role": "check box",
+    "name": "Skip run-together words",
+    "checked": true
+  },
+  {
+    "role": "panel",
+    "name": "Ignored Words"
+  },
+  {
+    "role": "list item",
+    "name": "Amarok",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "KAddressBook",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "KDevelop",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "KHTML",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "KIO",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "KJS",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "KMail",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "KMix",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "KOrganizer",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Konqueror",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Kontact",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Okular",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Qt",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Sonnet",
+    "states": [
+      "selectable",
+      "transient"
+    ]
+  },
+  {
+    "role": "button",
+    "name": "Add"
+  },
+  {
+    "role": "button",
+    "name": "Remove"
+  },
+  {
+    "role": "push button menu",
+    "checked": false,
+    "states": [
+      "has-popup"
+    ]
+  },
+  {
+    "role": "label",
+    "name": "Spell Check"
+  },
+  {
+    "role": "button",
+    "name": "Apply"
+  },
+  {
+    "role": "button",
+    "name": "Defaults"
+  },
+  {
+    "role": "button",
+    "name": "Reset"
+  },
+  {
+    "role": "button",
+    "name": "Help"
+  },
+  {
+    "role": "heading",
+    "name": "Input  Output"
+  },
+  {
+    "role": "heading",
+    "name": "Connected Devices"
+  },
+  {
+    "role": "list item",
+    "name": "Printers",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Wi-Fi & Internet",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Networking"
+  },
+  {
+    "role": "list item",
+    "name": "Push Notifications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Wallpaper",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Appearance  Style"
+  },
+  {
+    "role": "list item",
+    "name": "Colors & Themes",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Text & Fonts",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Animations",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Default Applications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Apps  Windows"
+  },
+  {
+    "role": "list item",
+    "name": "Notifications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Window Management",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Activities",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Workspace"
+  },
+  {
+    "role": "heading",
+    "name": "Personalization"
+  },
+  {
+    "role": "heading",
+    "name": "Security  Privacy"
+  },
+  {
+    "role": "heading",
+    "name": "Language  Time"
+  },
+  {
+    "role": "heading",
+    "name": "System"
+  },
+  {
+    "role": "list item",
+    "name": "Recent Files",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "User Feedback",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Region & Language",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Spell Check",
+    "states": [
+      "focused",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Date & Time",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Day-Night Cycle",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "About this System",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Driver Manager",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Power Management",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Software Update",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Users",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Autostart",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Session",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Backups",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "text",
+    "name": "Search",
+    "states": [
+      "editable"
+    ]
+  },
+  {
+    "role": "button",
+    "name": "Clear search"
+  },
+  {
+    "role": "push button menu",
+    "name": "Show menu",
+    "checked": false
+  },
+  {
+    "role": "page tab",
+    "name": "Spell Check"
+  },
+  {
+    "role": "push button menu",
+    "name": "Show menu",
+    "checked": false
+  }
+]

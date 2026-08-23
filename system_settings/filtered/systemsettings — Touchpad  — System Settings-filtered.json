@@ -1,0 +1,459 @@
+[
+  {
+    "role": "frame",
+    "name": "Touchpad  — System Settings",
+    "states": [
+      "active",
+      "resizable"
+    ]
+  },
+  {
+    "role": "filler",
+    "name": "Scrollable area"
+  },
+  {
+    "role": "heading",
+    "name": "No touchpad found"
+  },
+  {
+    "role": "label",
+    "name": "Connect an external touchpad"
+  },
+  {
+    "role": "heading",
+    "name": "Device:"
+  },
+  {
+    "role": "heading",
+    "name": "General:"
+  },
+  {
+    "role": "heading",
+    "name": "Left and right buttons:"
+  },
+  {
+    "role": "heading",
+    "name": "Pointer speed:"
+  },
+  {
+    "role": "heading",
+    "name": "Scrolling speed:"
+  },
+  {
+    "role": "heading",
+    "name": "Scroll by:"
+  },
+  {
+    "role": "heading",
+    "name": "Right-click by:"
+  },
+  {
+    "role": "heading",
+    "name": "Middle-click by:"
+  },
+  {
+    "role": "heading",
+    "name": "Tapping:"
+  },
+  {
+    "role": "heading",
+    "name": "Two-finger tap:"
+  },
+  {
+    "role": "combo box",
+    "name": "SYNA3602:00 093A:0255 Touchpad"
+  },
+  {
+    "role": "check box",
+    "name": "Enable device",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "name": "Disable while mouse is connected",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "name": "Disable while typing",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "This can interfere with video games."
+  },
+  {
+    "role": "check box",
+    "name": "Swap (left-handed mode)",
+    "checked": false
+  },
+  {
+    "role": "check box",
+    "name": "Press both simultaneously to middle-click",
+    "checked": false
+  },
+  {
+    "role": "button",
+    "name": "Show Contextual Help"
+  },
+  {
+    "role": "check box",
+    "name": "Enable pointer acceleration",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Slower"
+  },
+  {
+    "role": "label",
+    "name": "Faster"
+  },
+  {
+    "role": "radio button",
+    "name": "Moving two fingers anywhere",
+    "checked": true
+  },
+  {
+    "role": "radio button",
+    "name": "Moving one finger on edge",
+    "checked": false
+  },
+  {
+    "role": "check box",
+    "name": "Invert scroll direction (Natural scrolling)",
+    "checked": false
+  },
+  {
+    "role": "check box",
+    "name": "Disable horizontal scrolling",
+    "checked": false
+  },
+  {
+    "role": "radio button",
+    "name": "Pressing bottom-right corner",
+    "checked": false
+  },
+  {
+    "role": "label",
+    "name": "Middle-click by pressing bottom center."
+  },
+  {
+    "role": "radio button",
+    "name": "Pressing anywhere with two fingers",
+    "checked": true
+  },
+  {
+    "role": "label",
+    "name": "Middle-click by pressing anywhere with three fingers."
+  },
+  {
+    "role": "radio button",
+    "name": "Pressing bottom-middle edge",
+    "checked": true
+  },
+  {
+    "role": "radio button",
+    "name": "Pressing bottom-left and bottom-right corners",
+    "checked": false
+  },
+  {
+    "role": "check box",
+    "name": "Pressing anywhere with three fingers",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "name": "Tap to click",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "name": "Allow dragging after tapping",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "name": "Allow briefly lifting finger during tap-and-drag",
+    "checked": false
+  },
+  {
+    "role": "radio button",
+    "name": "Right-click (three-finger tap to middle-click)",
+    "checked": true
+  },
+  {
+    "role": "radio button",
+    "name": "Middle-click (three-finger tap to right-click)",
+    "checked": false
+  },
+  {
+    "role": "push button menu",
+    "checked": false,
+    "states": [
+      "has-popup"
+    ]
+  },
+  {
+    "role": "label",
+    "name": "Touchpad"
+  },
+  {
+    "role": "button",
+    "name": "Apply"
+  },
+  {
+    "role": "button",
+    "name": "Defaults"
+  },
+  {
+    "role": "button",
+    "name": "Reset"
+  },
+  {
+    "role": "button",
+    "name": "Help"
+  },
+  {
+    "role": "list item",
+    "name": "Quick Settings",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Mouse & Touchpad",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Input  Output"
+  },
+  {
+    "role": "list item",
+    "name": "Keyboard",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Multimedia",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Game Controller",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Sound",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Display & Monitor",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Accessibility",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Bluetooth",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "check box",
+    "name": "Enable Bluetooth",
+    "checked": true
+  },
+  {
+    "role": "heading",
+    "name": "Connected Devices"
+  },
+  {
+    "role": "list item",
+    "name": "Disks & Cameras",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Thunderbolt",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Printers",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Wi-Fi & Internet",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Networking"
+  },
+  {
+    "role": "list item",
+    "name": "Push Notifications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Wallpaper",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Appearance  Style"
+  },
+  {
+    "role": "list item",
+    "name": "Colors & Themes",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Text & Fonts",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Animations",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Default Applications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Apps  Windows"
+  },
+  {
+    "role": "list item",
+    "name": "Notifications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Window Management",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Activities",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Workspace"
+  },
+  {
+    "role": "heading",
+    "name": "Personalization"
+  },
+  {
+    "role": "heading",
+    "name": "Security  Privacy"
+  },
+  {
+    "role": "heading",
+    "name": "Language  Time"
+  },
+  {
+    "role": "heading",
+    "name": "System"
+  },
+  {
+    "role": "text",
+    "name": "Search",
+    "states": [
+      "editable"
+    ]
+  },
+  {
+    "role": "button",
+    "name": "Clear search"
+  },
+  {
+    "role": "push button menu",
+    "name": "Show menu",
+    "checked": false
+  },
+  {
+    "role": "page tab",
+    "name": "Mouse & Touchpad",
+    "states": [
+      "focused"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Mouse",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Touchpad",
+    "states": [
+      "focused",
+      "transient"
+    ]
+  },
+  {
+    "role": "push button menu",
+    "name": "Show menu",
+    "checked": false
+  }
+]

@@ -20,8 +20,9 @@ DUMPS_DIR = os.path.join(BASE_DIR, 'dumps')
 DEADLINE = time.monotonic() + 30.0
 # Safety cap against pathological nesting depth.
 MAX_DEPTH = 30
-# Roles that identify a top-level window of an application.
-WINDOW_ROLES = ('frame', 'window')
+# Roles that identify a top-level window of an application. The dialog role
+# covers modal dialogs that sit on top of their parent window.
+WINDOW_ROLES = ('frame', 'window', 'dialog')
 # States that are noise for a reading agent and are always dropped from records.
 NOISE_STATES = {'showing', 'visible', 'focusable', 'read-only', 'checkable'}
 
@@ -96,17 +97,19 @@ def node_data(acc):
     except Exception:
         pass
     try:
-        v = acc.query_value()
-        data['value'] = {'current': v.get_current_value(),
-                         'minimum': v.get_minimum_value(),
-                         'maximum': v.get_maximum_value()}
+        v = acc.get_value_iface()
+        if v is not None:
+            data['value'] = {'current': v.get_current_value(),
+                             'minimum': v.get_minimum_value(),
+                             'maximum': v.get_maximum_value()}
     except Exception:
         pass
     try:
-        t = acc.query_text()
-        n = t.get_character_count()
-        if n > 0:
-            data['text'] = t.get_text(0, n)
+        t = acc.get_text_iface()
+        if t is not None:
+            n = t.get_character_count()
+            if n > 0:
+                data['text'] = Atspi.Text.get_text(t, 0, n)
     except Exception:
         pass
     try:
@@ -154,6 +157,8 @@ def extract_records(node, parent_name, records):
         if name:
             record['name'] = name
         record['checked'] = 'checked' in states
+        if node.get('value'):
+            record['value'] = node['value']
         meaningful = [s for s in states if s not in NOISE_STATES]
         if meaningful:
             record['states'] = meaningful
@@ -171,6 +176,8 @@ def extract_records(node, parent_name, records):
         # Meaningful node: save it and propagate its name as the new parent
         # name for its children.
         record = {'role': role, 'name': name}
+        if node.get('value'):
+            record['value'] = node['value']
         meaningful = [s for s in states if s not in NOISE_STATES]
         if meaningful:
             record['states'] = meaningful

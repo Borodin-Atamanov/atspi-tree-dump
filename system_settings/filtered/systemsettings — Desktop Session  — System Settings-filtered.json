@@ -1,0 +1,353 @@
+[
+  {
+    "role": "frame",
+    "name": "Desktop Session  — System Settings",
+    "states": [
+      "active",
+      "resizable"
+    ]
+  },
+  {
+    "role": "filler",
+    "name": "Scrollable area"
+  },
+  {
+    "role": "heading",
+    "name": "Desktop Session"
+  },
+  {
+    "role": "page tab",
+    "name": "Desktop Session",
+    "states": [
+      "focused"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "General"
+  },
+  {
+    "role": "heading",
+    "name": "Ask for confirmation:"
+  },
+  {
+    "role": "heading",
+    "name": "Session Restore"
+  },
+  {
+    "role": "heading",
+    "name": "On login, launch apps that were open:"
+  },
+  {
+    "role": "heading",
+    "name": "Ignored applications:"
+  },
+  {
+    "role": "heading",
+    "name": "Firmware"
+  },
+  {
+    "role": "heading",
+    "name": "After next restart:"
+  },
+  {
+    "role": "check box",
+    "name": "On shutdown, restart, and logout",
+    "checked": true
+  },
+  {
+    "role": "radio button",
+    "name": "On last logout",
+    "checked": false
+  },
+  {
+    "role": "radio button",
+    "name": "When session was manually saved",
+    "checked": false
+  },
+  {
+    "role": "button",
+    "name": "Show Contextual Help"
+  },
+  {
+    "role": "radio button",
+    "name": "Start with an empty session",
+    "checked": true
+  },
+  {
+    "role": "check box",
+    "name": "Enter UEFI setup screen",
+    "checked": false
+  },
+  {
+    "role": "push button menu",
+    "checked": false,
+    "states": [
+      "has-popup"
+    ]
+  },
+  {
+    "role": "label",
+    "name": "Date & Time"
+  },
+  {
+    "role": "button",
+    "name": "Apply"
+  },
+  {
+    "role": "button",
+    "name": "Defaults"
+  },
+  {
+    "role": "button",
+    "name": "Reset"
+  },
+  {
+    "role": "button",
+    "name": "Help"
+  },
+  {
+    "role": "heading",
+    "name": "Input  Output"
+  },
+  {
+    "role": "heading",
+    "name": "Connected Devices"
+  },
+  {
+    "role": "heading",
+    "name": "Networking"
+  },
+  {
+    "role": "list item",
+    "name": "Push Notifications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Wallpaper",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Appearance  Style"
+  },
+  {
+    "role": "list item",
+    "name": "Colors & Themes",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Text & Fonts",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Animations",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Default Applications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Apps  Windows"
+  },
+  {
+    "role": "list item",
+    "name": "Notifications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Window Management",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Activities",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Workspace"
+  },
+  {
+    "role": "heading",
+    "name": "Personalization"
+  },
+  {
+    "role": "heading",
+    "name": "Security  Privacy"
+  },
+  {
+    "role": "heading",
+    "name": "Language  Time"
+  },
+  {
+    "role": "heading",
+    "name": "System"
+  },
+  {
+    "role": "list item",
+    "name": "Recent Files",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "User Feedback",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Region & Language",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Spell Check",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Date & Time",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Day-Night Cycle",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "About this System",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Driver Manager",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Power Management",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Software Update",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Users",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Autostart",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Session",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Backups",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "text",
+    "name": "Search",
+    "states": [
+      "editable"
+    ]
+  },
+  {
+    "role": "button",
+    "name": "Clear search"
+  },
+  {
+    "role": "push button menu",
+    "name": "Show menu",
+    "checked": false
+  },
+  {
+    "role": "page tab",
+    "name": "Session",
+    "states": [
+      "focused"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Desktop Session",
+    "states": [
+      "focused",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Locations",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "push button menu",
+    "name": "Show menu",
+    "checked": false
+  }
+]

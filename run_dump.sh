@@ -4,5 +4,5 @@
 cd /home/i/Downloads/atspi_dump
 output=$(uv run atspi_dump_json.py 2>&1)
 status=$?
-notify-send -t 1000 "AT-SPI dump" "$output"
+notify-send -t 3777 "AT-SPI dump" "$output"
 exit "$status"

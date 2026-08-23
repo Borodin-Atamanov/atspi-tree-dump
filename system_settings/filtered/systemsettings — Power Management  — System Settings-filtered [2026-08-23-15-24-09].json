@@ -1,0 +1,464 @@
+[
+  {
+    "role": "frame",
+    "name": "Power Management  — System Settings",
+    "states": [
+      "active",
+      "resizable"
+    ]
+  },
+  {
+    "role": "filler",
+    "name": "Scrollable area"
+  },
+  {
+    "role": "heading",
+    "name": "Power Management"
+  },
+  {
+    "role": "button",
+    "name": "Configure Advanced Settings…"
+  },
+  {
+    "role": "page tab",
+    "name": "Power Management",
+    "states": [
+      "focused"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Power Management settings could not be loaded"
+  },
+  {
+    "role": "page tab",
+    "name": "On AC Power",
+    "checked": true
+  },
+  {
+    "role": "page tab",
+    "name": "On Battery",
+    "checked": false
+  },
+  {
+    "role": "page tab",
+    "name": "On Low Battery",
+    "checked": false
+  },
+  {
+    "role": "heading",
+    "name": "Suspend Session"
+  },
+  {
+    "role": "heading",
+    "name": "When inactive:"
+  },
+  {
+    "role": "heading",
+    "name": "When power button pressed:"
+  },
+  {
+    "role": "heading",
+    "name": "When laptop lid closed:"
+  },
+  {
+    "role": "heading",
+    "name": "When sleeping, enter:"
+  },
+  {
+    "role": "heading",
+    "name": "Display and Brightness"
+  },
+  {
+    "role": "heading",
+    "name": "Change screen brightness:"
+  },
+  {
+    "role": "heading",
+    "name": "Dim automatically:"
+  },
+  {
+    "role": "heading",
+    "name": "Turn off screen:"
+  },
+  {
+    "role": "heading",
+    "name": "Change keyboard brightness:"
+  },
+  {
+    "role": "heading",
+    "name": "Other Settings"
+  },
+  {
+    "role": "heading",
+    "name": "Switch to power profile:"
+  },
+  {
+    "role": "heading",
+    "name": "Run command or script:"
+  },
+  {
+    "role": "heading",
+    "name": "When entering \"On AC Power\" state:"
+  },
+  {
+    "role": "heading",
+    "name": "When exiting \"On AC Power\" state:"
+  },
+  {
+    "role": "combo box",
+    "name": "Action to perform when the system is idle"
+  },
+  {
+    "role": "combo box",
+    "name": "After 9.999 minutes"
+  },
+  {
+    "role": "combo box",
+    "name": "Action to perform when the power button is pressed"
+  },
+  {
+    "role": "combo box",
+    "name": "Action to perform when the laptop lid is closed"
+  },
+  {
+    "role": "check box",
+    "name": "Perform laptop lid action even when an external monitor is connected",
+    "checked": false
+  },
+  {
+    "role": "label",
+    "name": "Even when an external monitor is connected"
+  },
+  {
+    "role": "combo box",
+    "name": "When sleeping, enter this power-save mode"
+  },
+  {
+    "role": "check box",
+    "checked": false
+  },
+  {
+    "role": "label",
+    "name": "70%"
+  },
+  {
+    "role": "combo box",
+    "name": "14 minutes"
+  },
+  {
+    "role": "combo box",
+    "name": "15 minutes"
+  },
+  {
+    "role": "combo box",
+    "name": "When locked: 1 minute"
+  },
+  {
+    "role": "check box",
+    "checked": false
+  },
+  {
+    "role": "label",
+    "name": "50%"
+  },
+  {
+    "role": "combo box",
+    "name": "Switch to power profile"
+  },
+  {
+    "role": "push button menu",
+    "name": "Choose run conditions for command or script"
+  },
+  {
+    "role": "filler",
+    "name": "Command or script when entering \"On AC Power\" state"
+  },
+  {
+    "role": "text",
+    "name": "Enter command or choose script file",
+    "states": [
+      "editable"
+    ]
+  },
+  {
+    "role": "button",
+    "name": "Choose script file"
+  },
+  {
+    "role": "filler",
+    "name": "Command or script when exiting \"On AC Power\" state"
+  },
+  {
+    "role": "combo box",
+    "name": "Duration of inactivity before the command or script runs"
+  },
+  {
+    "role": "filler",
+    "name": "Command or script when inactive"
+  },
+  {
+    "role": "push button menu",
+    "checked": false,
+    "states": [
+      "has-popup"
+    ]
+  },
+  {
+    "role": "label",
+    "name": "Date & Time"
+  },
+  {
+    "role": "button",
+    "name": "Apply"
+  },
+  {
+    "role": "button",
+    "name": "Defaults"
+  },
+  {
+    "role": "button",
+    "name": "Reset"
+  },
+  {
+    "role": "button",
+    "name": "Help"
+  },
+  {
+    "role": "heading",
+    "name": "Input  Output"
+  },
+  {
+    "role": "heading",
+    "name": "Connected Devices"
+  },
+  {
+    "role": "list item",
+    "name": "Printers",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Wi-Fi & Internet",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Networking"
+  },
+  {
+    "role": "list item",
+    "name": "Push Notifications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Wallpaper",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Appearance  Style"
+  },
+  {
+    "role": "list item",
+    "name": "Colors & Themes",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Text & Fonts",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Animations",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Default Applications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Apps  Windows"
+  },
+  {
+    "role": "list item",
+    "name": "Notifications",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Window Management",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Activities",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "heading",
+    "name": "Workspace"
+  },
+  {
+    "role": "heading",
+    "name": "Personalization"
+  },
+  {
+    "role": "heading",
+    "name": "Security  Privacy"
+  },
+  {
+    "role": "heading",
+    "name": "Language  Time"
+  },
+  {
+    "role": "heading",
+    "name": "System"
+  },
+  {
+    "role": "list item",
+    "name": "Recent Files",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "User Feedback",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Region & Language",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Spell Check",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Date & Time",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Day-Night Cycle",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "About this System",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Driver Manager",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Power Management",
+    "states": [
+      "focused",
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Software Update",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Users",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Autostart",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Session",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "list item",
+    "name": "Backups",
+    "states": [
+      "transient"
+    ]
+  },
+  {
+    "role": "text",
+    "name": "Search",
+    "states": [
+      "editable"
+    ]
+  },
+  {
+    "role": "button",
+    "name": "Clear search"
+  },
+  {
+    "role": "push button menu",
+    "name": "Show menu",
+    "checked": false
+  },
+  {
+    "role": "push button menu",
+    "name": "Show menu",
+    "checked": false
+  }
+]
