@@ -1,3 +1,3 @@
 """atspi-tree-dump package: the version source of the repository."""
 
-__version__ = "0.1.8"
+__version__ = "0.1.9"

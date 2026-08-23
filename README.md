@@ -10,24 +10,31 @@ Primary target platform: Kubuntu with KDE, Wayland.
 
 ## Requirements
 
-uv (https://docs.astral.sh/uv) manages the project environment, version and
-dependency lock. The system Python packages for PyGObject and AT-SPI
-(python3-gi and gir1.2-atspi-2.0) must be installed for the system Python
-version, and the at-spi bus must be running. Qt and KDE applications expose
-their accessibility tree only when accessibility is enabled: set
-AccessibilityEnabled=true in the KDE group of ~/.config/kdeglobals and restart
-the application, otherwise its window tree stays empty.
+Tested on Kubuntu 26 with KDE and Wayland. The script needs the PyGObject and
+AT-SPI bindings as system packages for the system Python:
+
+sudo apt install python3-gi gir1.2-atspi-2.0
+
+Qt and KDE applications expose their accessibility tree only when
+accessibility is enabled. Turn it on with:
+
+kwriteconfig6 --file kdeglobals --group KDE --key AccessibilityEnabled true
+
+Then restart the application so it loads the accessibility bridge; without
+this, its windows expose no elements to the script. These system packages are
+not installed through uv: uv only manages the script's Python environment.
 
 ## Usage
 
 uv venv --system-site-packages
 uv run atspi_dump_json.py
 
-The venv is created with access to the system site packages, so the PyGObject
-and AT-SPI bindings from the system are visible to the project; the project
-version, the Python requirement and the dependency lock are tracked by uv
-(pyproject.toml, uv.lock and .python-version). The script walks the AT-SPI
-desktop, finds every top-level window of every application, and writes:
+The first command creates the project environment with access to the system
+site packages, so the PyGObject and AT-SPI bindings are visible. The second
+runs the script. uv tracks the project version, the Python requirement and the
+dependency lock (pyproject.toml, uv.lock and .python-version). The script
+walks the AT-SPI desktop, finds every top-level window of every application,
+and writes:
 
 1. dumps/<window>.json — the raw accessibility tree as-is.
 2. dumps/<window>-filtered.json — the fully filtered flat record list.
@@ -55,12 +62,6 @@ pyproject.toml — uv project metadata with the dynamic version.
 uv.lock — locked dependency versions.
 .python-version — pinned Python version.
 dumps/ — generated snapshots, ignored by git.
-
-## Version
-
-The current version is 0.1.7. The pre-commit hook reads the version from
-src/atspi_tree_dump/__init__.py, increments the patch step and stages the
-change, so the version grows with each commit.
 
 ## License
 
