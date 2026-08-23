@@ -1,0 +1,473 @@
+{
+  "role": "frame",
+  "name": "Clipboard Popup",
+  "states": [
+    "enabled",
+    "sensitive"
+  ],
+  "interfaces": [
+    "Accessible"
+  ],
+  "children": [
+    {
+      "role": "page tab",
+      "name": "",
+      "states": [
+        "enabled",
+        "focusable",
+        "sensitive"
+      ],
+      "interfaces": [
+        "Accessible",
+        "Action",
+        "Component"
+      ],
+      "children": [
+        {
+          "role": "tool bar",
+          "name": "",
+          "states": [
+            "enabled",
+            "sensitive"
+          ],
+          "interfaces": [
+            "Accessible",
+            "Action",
+            "Component"
+          ],
+          "children": [
+            {
+              "role": "text",
+              "name": "Search",
+              "states": [
+                "editable",
+                "enabled",
+                "focusable",
+                "sensitive"
+              ],
+              "interfaces": [
+                "Accessible",
+                "Action",
+                "Component",
+                "Text"
+              ],
+              "children": [
+                {
+                  "role": "label",
+                  "name": "Search…",
+                  "states": [
+                    "read-only"
+                  ],
+                  "interfaces": [
+                    "Accessible",
+                    "Action",
+                    "Component",
+                    "Text"
+                  ]
+                },
+                {
+                  "role": "label",
+                  "name": "●",
+                  "states": [
+                    "read-only"
+                  ],
+                  "interfaces": [
+                    "Accessible",
+                    "Action",
+                    "Text"
+                  ]
+                },
+                {
+                  "role": "button",
+                  "name": "Clear search",
+                  "states": [
+                    "enabled",
+                    "focusable",
+                    "sensitive"
+                  ],
+                  "interfaces": [
+                    "Accessible",
+                    "Action"
+                  ],
+                  "children": [
+                    {
+                      "role": "label",
+                      "name": "Clear search",
+                      "states": [
+                        "enabled",
+                        "focusable",
+                        "sensitive",
+                        "read-only"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Text"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "role": "button",
+              "name": "Clear History",
+              "states": [
+                "enabled",
+                "focusable",
+                "sensitive"
+              ],
+              "interfaces": [
+                "Accessible",
+                "Action",
+                "Component"
+              ],
+              "children": [
+                {
+                  "role": "label",
+                  "name": "Clear History",
+                  "states": [
+                    "enabled",
+                    "focusable",
+                    "sensitive",
+                    "read-only"
+                  ],
+                  "interfaces": [
+                    "Accessible",
+                    "Action",
+                    "Text"
+                  ]
+                }
+              ]
+            },
+            {
+              "role": "page tab list",
+              "name": "",
+              "states": [
+                "enabled",
+                "focusable",
+                "sensitive"
+              ],
+              "interfaces": [
+                "Accessible",
+                "Action"
+              ],
+              "children": [
+                {
+                  "role": "page tab",
+                  "name": "All History",
+                  "states": [
+                    "checked",
+                    "enabled",
+                    "focusable",
+                    "sensitive",
+                    "checkable"
+                  ],
+                  "interfaces": [
+                    "Accessible",
+                    "Action"
+                  ]
+                },
+                {
+                  "role": "page tab",
+                  "name": "Starred Only",
+                  "states": [
+                    "enabled",
+                    "focusable",
+                    "sensitive",
+                    "checkable"
+                  ],
+                  "interfaces": [
+                    "Accessible",
+                    "Action"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "role": "layered pane",
+          "name": "",
+          "states": [
+            "enabled",
+            "sensitive"
+          ],
+          "interfaces": [
+            "Accessible",
+            "Action"
+          ],
+          "children": [
+            {
+              "role": "panel",
+              "name": "",
+              "states": [
+                "enabled",
+                "sensitive"
+              ],
+              "interfaces": [
+                "Accessible",
+                "Action"
+              ],
+              "children": [
+                {
+                  "role": "tool bar",
+                  "name": "",
+                  "states": [
+                    "enabled",
+                    "sensitive"
+                  ],
+                  "interfaces": [
+                    "Accessible",
+                    "Action"
+                  ]
+                },
+                {
+                  "role": "button",
+                  "name": "",
+                  "states": [
+                    "enabled",
+                    "focusable",
+                    "sensitive"
+                  ],
+                  "interfaces": [
+                    "Accessible",
+                    "Action"
+                  ],
+                  "children": [
+                    {
+                      "role": "label",
+                      "name": "",
+                      "states": [
+                        "enabled",
+                        "focusable",
+                        "sensitive",
+                        "read-only"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Text"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "role": "list item",
+                  "name": "Agent Rules. This rules is ABLOSUTELY MANDATORY to follow! Without exceptions!<font color='#3daee9'>↵</font><font color='#3daee9'>↵</font>&lt;project_instruction",
+                  "states": [
+                    "enabled",
+                    "sensitive",
+                    "transient"
+                  ],
+                  "interfaces": [
+                    "Accessible",
+                    "Action",
+                    "Component"
+                  ],
+                  "children": [
+                    {
+                      "role": "filler",
+                      "name": "",
+                      "states": [
+                        "enabled",
+                        "sensitive"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action"
+                      ]
+                    },
+                    {
+                      "role": "button",
+                      "name": "Invoke action",
+                      "states": [
+                        "enabled",
+                        "focusable",
+                        "sensitive"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ],
+                      "children": [
+                        {
+                          "role": "label",
+                          "name": "Invoke action",
+                          "states": [
+                            "enabled",
+                            "focusable",
+                            "sensitive",
+                            "read-only"
+                          ],
+                          "interfaces": [
+                            "Accessible",
+                            "Action",
+                            "Text"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "role": "button",
+                      "name": "Show QR code",
+                      "states": [
+                        "enabled",
+                        "focusable",
+                        "sensitive"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ],
+                      "children": [
+                        {
+                          "role": "label",
+                          "name": "Show QR code",
+                          "states": [
+                            "enabled",
+                            "focusable",
+                            "sensitive",
+                            "read-only"
+                          ],
+                          "interfaces": [
+                            "Accessible",
+                            "Action",
+                            "Text"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "role": "button",
+                      "name": "Edit contents",
+                      "states": [
+                        "enabled",
+                        "focusable",
+                        "sensitive"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ],
+                      "children": [
+                        {
+                          "role": "label",
+                          "name": "Edit contents",
+                          "states": [
+                            "enabled",
+                            "focusable",
+                            "sensitive",
+                            "read-only"
+                          ],
+                          "interfaces": [
+                            "Accessible",
+                            "Action",
+                            "Text"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "role": "button",
+                      "name": "Remove from history",
+                      "states": [
+                        "enabled",
+                        "focusable",
+                        "sensitive"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ],
+                      "children": [
+                        {
+                          "role": "label",
+                          "name": "Remove from history",
+                          "states": [
+                            "enabled",
+                            "focusable",
+                            "sensitive",
+                            "read-only"
+                          ],
+                          "interfaces": [
+                            "Accessible",
+                            "Action",
+                            "Text"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "role": "button",
+                      "name": "Star",
+                      "states": [
+                        "enabled",
+                        "focusable",
+                        "sensitive"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ],
+                      "children": [
+                        {
+                          "role": "label",
+                          "name": "Star",
+                          "states": [
+                            "enabled",
+                            "focusable",
+                            "sensitive",
+                            "read-only"
+                          ],
+                          "interfaces": [
+                            "Accessible",
+                            "Action",
+                            "Text"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "role": "scroll bar",
+                  "name": "",
+                  "states": [
+                    "enabled",
+                    "focusable",
+                    "sensitive"
+                  ],
+                  "interfaces": [
+                    "Accessible",
+                    "Action",
+                    "Value"
+                  ]
+                },
+                {
+                  "role": "scroll bar",
+                  "name": "",
+                  "states": [
+                    "enabled",
+                    "focusable",
+                    "sensitive"
+                  ],
+                  "interfaces": [
+                    "Accessible",
+                    "Action",
+                    "Value"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "role": "frame",
+  "name": "Desktop @ QRect(0,0 1920x1080) ",
+  "states": [
+    "enabled",
+    "sensitive",
+    "showing",
+    "visible"
+  ],
+  "interfaces": [
+    "Accessible",
+    "Component"
+  ],
+  "children": [
+    {
+      "role": "label",
+      "name": "",
+      "states": [
+        "enabled",
+        "focusable",
+        "sensitive",
+        "showing",
+        "visible",
+        "read-only"
+      ],
+      "interfaces": [
+        "Accessible",
+        "Action",
+        "Component",
+        "Text"
+      ]
+    },
+    {
+      "role": "scroll bar",
+      "name": "",
+      "states": [
+        "enabled",
+        "focusable",
+        "sensitive"
+      ],
+      "interfaces": [
+        "Accessible",
+        "Action",
+        "Value"
+      ]
+    },
+    {
+      "role": "scroll bar",
+      "name": "",
+      "states": [
+        "enabled",
+        "focusable",
+        "sensitive"
+      ],
+      "interfaces": [
+        "Accessible",
+        "Action",
+        "Value"
+      ]
+    },
+    {
+      "role": "text",
+      "name": "",
+      "states": [
+        "editable",
+        "enabled",
+        "focusable",
+        "sensitive",
+        "read-only"
+      ],
+      "interfaces": [
+        "Accessible",
+        "Action",
+        "Text"
+      ]
+    },
+    {
+      "role": "layered pane",
+      "name": "",
+      "states": [
+        "enabled",
+        "sensitive",
+        "showing",
+        "visible"
+      ],
+      "interfaces": [
+        "Accessible",
+        "Action",
+        "Component"
+      ]
+    }
+  ]
+}

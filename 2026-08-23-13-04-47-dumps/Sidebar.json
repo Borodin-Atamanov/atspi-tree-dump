@@ -1,0 +1,12 @@
+{
+  "role": "frame",
+  "name": "Sidebar",
+  "states": [
+    "enabled",
+    "sensitive"
+  ],
+  "interfaces": [
+    "Accessible",
+    "Component"
+  ]
+}

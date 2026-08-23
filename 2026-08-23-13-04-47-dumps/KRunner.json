@@ -1,0 +1,312 @@
+{
+  "role": "frame",
+  "name": "KRunner",
+  "states": [
+    "enabled",
+    "sensitive"
+  ],
+  "interfaces": [
+    "Accessible",
+    "Component"
+  ],
+  "children": [
+    {
+      "role": "button",
+      "name": "Configure",
+      "states": [
+        "enabled",
+        "focusable",
+        "sensitive"
+      ],
+      "interfaces": [
+        "Accessible",
+        "Action",
+        "Component"
+      ],
+      "children": [
+        {
+          "role": "label",
+          "name": "",
+          "states": [
+            "enabled",
+            "focusable",
+            "sensitive",
+            "read-only"
+          ],
+          "interfaces": [
+            "Accessible",
+            "Action",
+            "Text"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "button",
+      "name": "",
+      "states": [
+        "checked",
+        "enabled",
+        "focusable",
+        "sensitive"
+      ],
+      "interfaces": [
+        "Accessible",
+        "Action"
+      ],
+      "children": [
+        {
+          "role": "label",
+          "name": "",
+          "states": [
+            "enabled",
+            "focusable",
+            "sensitive",
+            "read-only"
+          ],
+          "interfaces": [
+            "Accessible",
+            "Action",
+            "Text"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "text",
+      "name": "Search",
+      "states": [
+        "editable",
+        "enabled",
+        "focusable",
+        "sensitive"
+      ],
+      "interfaces": [
+        "Accessible",
+        "Action",
+        "Component",
+        "Text"
+      ],
+      "children": [
+        {
+          "role": "label",
+          "name": "Search…",
+          "states": [
+            "read-only"
+          ],
+          "interfaces": [
+            "Accessible",
+            "Action",
+            "Component",
+            "Text"
+          ]
+        },
+        {
+          "role": "label",
+          "name": "●",
+          "states": [
+            "read-only"
+          ],
+          "interfaces": [
+            "Accessible",
+            "Action",
+            "Text"
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Clear search",
+          "states": [
+            "enabled",
+            "focusable",
+            "sensitive"
+          ],
+          "interfaces": [
+            "Accessible",
+            "Action"
+          ],
+          "children": [
+            {
+              "role": "label",
+              "name": "Clear search",
+              "states": [
+                "enabled",
+                "focusable",
+                "sensitive",
+                "read-only"
+              ],
+              "interfaces": [
+                "Accessible",
+                "Action",
+                "Text"
+              ]
+            }
+          ]
+        },
+        {
+          "role": "label",
+          "name": "",
+          "states": [
+            "enabled",
+            "focusable",
+            "sensitive",
+            "read-only"
+          ],
+          "interfaces": [
+            "Accessible",
+            "Action",
+            "Text"
+          ]
+        },
+        {
+          "role": "unknown",
+          "name": "",
+          "states": [
+            "enabled",
+            "sensitive"
+          ],
+          "interfaces": [
+            "Accessible",
+            "Action",
+            "Component"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "check box",
+      "name": "Show Usage Help",
+      "states": [
+        "enabled",
+        "focusable",
+        "sensitive",
+        "checkable"
+      ],
+      "interfaces": [
+        "Accessible",
+        "Action",
+        "Component"
+      ],
+      "children": [
+        {
+          "role": "label",
+          "name": "",
+          "states": [
+            "enabled",
+            "focusable",
+            "sensitive",
+            "read-only"
+          ],
+          "interfaces": [
+            "Accessible",
+            "Action",
+            "Text"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "check box",
+      "name": "Pin",
+      "states": [
+        "enabled",
+        "focusable",
+        "sensitive",
+        "checkable"
+      ],
+      "interfaces": [
+        "Accessible",
+        "Action",
+        "Component"
+      ],
+      "children": [
+        {
+          "role": "label",
+          "name": "",
+          "states": [
+            "enabled",
+            "focusable",
+            "sensitive",
+            "read-only"
+          ],
+          "interfaces": [
+            "Accessible",
+            "Action",
+            "Text"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "panel",
+      "name": "",
+      "states": [],
+      "interfaces": [
+        "Accessible",
+        "Action"
+      ],
+      "children": [
+        {
+          "role": "list",
+          "name": "",
+          "states": [],
+          "interfaces": [
+            "Accessible",
+            "Action"
+          ]
+        },
+        {
+          "role": "scroll bar",
+          "name": "",
+          "states": [],
+          "interfaces": [
+            "Accessible",
+            "Action",
+            "Value"
+          ]
+        },
+        {
+          "role": "scroll bar",
+          "name": "",
+          "states": [],
+          "interfaces": [
+            "Accessible",
+            "Action",
+            "Value"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "panel",
+      "name": "",
+      "states": [],
+      "interfaces": [
+        "Accessible",
+        "Action"
+      ],
+      "children": [
+        {
+          "role": "scroll bar",
+          "name": "",
+          "states": [],
+          "interfaces": [
+            "Accessible",
+            "Action",
+            "Value"
+          ]
+        },
+        {
+          "role": "scroll bar",
+          "name": "",
+          "states": [],
+          "interfaces": [
+            "Accessible",
+            "Action",
+            "Value"
+          ]
+        }
+      ]
+    }
+  ]
+}

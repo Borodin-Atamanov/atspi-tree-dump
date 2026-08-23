@@ -1,0 +1,12 @@
+{
+  "role": "frame",
+  "name": "Offscreen",
+  "states": [
+    "enabled",
+    "sensitive"
+  ],
+  "interfaces": [
+    "Accessible",
+    "Component"
+  ]
+}

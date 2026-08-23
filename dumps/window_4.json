@@ -1,0 +1,11 @@
+{
+  "role": "frame",
+  "name": "",
+  "states": [
+    "enabled",
+    "sensitive"
+  ],
+  "interfaces": [
+    "Accessible"
+  ]
+}

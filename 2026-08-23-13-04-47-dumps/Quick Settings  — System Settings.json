@@ -1,0 +1,2744 @@
+{
+  "role": "frame",
+  "name": "Quick Settings  — System Settings",
+  "states": [
+    "enabled",
+    "resizable",
+    "sensitive",
+    "showing",
+    "visible"
+  ],
+  "interfaces": [
+    "Accessible",
+    "Action",
+    "Component"
+  ],
+  "children": [
+    {
+      "role": "layered pane",
+      "name": "",
+      "states": [
+        "enabled",
+        "sensitive",
+        "showing",
+        "visible"
+      ],
+      "interfaces": [
+        "Accessible",
+        "Action",
+        "Component"
+      ],
+      "children": [
+        {
+          "role": "filler",
+          "name": "",
+          "states": [
+            "enabled",
+            "sensitive",
+            "showing",
+            "visible"
+          ],
+          "interfaces": [
+            "Accessible",
+            "Action",
+            "Component"
+          ],
+          "children": [
+            {
+              "role": "filler",
+              "name": "",
+              "states": [
+                "enabled",
+                "sensitive",
+                "showing",
+                "visible"
+              ],
+              "interfaces": [
+                "Accessible",
+                "Action",
+                "Component"
+              ],
+              "children": [
+                {
+                  "role": "filler",
+                  "name": "",
+                  "states": [
+                    "enabled",
+                    "sensitive",
+                    "showing",
+                    "visible"
+                  ],
+                  "interfaces": [
+                    "Accessible",
+                    "Action",
+                    "Component"
+                  ],
+                  "children": [
+                    {
+                      "role": "layered pane",
+                      "name": "",
+                      "states": [
+                        "enabled",
+                        "sensitive",
+                        "showing",
+                        "visible"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ],
+                      "children": [
+                        {
+                          "role": "filler",
+                          "name": "",
+                          "states": [
+                            "enabled",
+                            "sensitive"
+                          ],
+                          "interfaces": [
+                            "Accessible",
+                            "Action",
+                            "Component"
+                          ]
+                        },
+                        {
+                          "role": "filler",
+                          "name": "Scrollable area",
+                          "states": [
+                            "enabled",
+                            "sensitive",
+                            "showing",
+                            "visible"
+                          ],
+                          "interfaces": [
+                            "Accessible",
+                            "Action",
+                            "Component"
+                          ],
+                          "children": [
+                            {
+                              "role": "filler",
+                              "name": "",
+                              "states": [
+                                "enabled",
+                                "sensitive",
+                                "showing",
+                                "visible"
+                              ],
+                              "interfaces": [
+                                "Accessible",
+                                "Action",
+                                "Component"
+                              ],
+                              "children": [
+                                {
+                                  "role": "filler",
+                                  "name": "",
+                                  "states": [
+                                    "enabled",
+                                    "focusable",
+                                    "sensitive",
+                                    "showing",
+                                    "visible"
+                                  ],
+                                  "interfaces": [
+                                    "Accessible",
+                                    "Action",
+                                    "Component"
+                                  ],
+                                  "children": [
+                                    {
+                                      "role": "filler",
+                                      "name": "",
+                                      "states": [
+                                        "enabled",
+                                        "focusable",
+                                        "sensitive",
+                                        "showing",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ],
+                                      "children": [
+                                        {
+                                          "role": "filler",
+                                          "name": "",
+                                          "states": [
+                                            "enabled",
+                                            "sensitive",
+                                            "showing",
+                                            "visible"
+                                          ],
+                                          "interfaces": [
+                                            "Accessible",
+                                            "Action",
+                                            "Component"
+                                          ],
+                                          "children": [
+                                            {
+                                              "role": "panel",
+                                              "name": "",
+                                              "states": [
+                                                "enabled",
+                                                "focused",
+                                                "sensitive",
+                                                "showing",
+                                                "visible"
+                                              ],
+                                              "interfaces": [
+                                                "Accessible",
+                                                "Action",
+                                                "Component"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "role": "separator",
+                                                  "name": "",
+                                                  "states": [
+                                                    "enabled",
+                                                    "sensitive",
+                                                    "showing",
+                                                    "visible"
+                                                  ],
+                                                  "interfaces": [
+                                                    "Accessible",
+                                                    "Action",
+                                                    "Component"
+                                                  ]
+                                                },
+                                                {
+                                                  "role": "separator",
+                                                  "name": "",
+                                                  "states": [
+                                                    "enabled",
+                                                    "sensitive"
+                                                  ],
+                                                  "interfaces": [
+                                                    "Accessible",
+                                                    "Action"
+                                                  ]
+                                                },
+                                                {
+                                                  "role": "heading",
+                                                  "name": "Quick Settings",
+                                                  "states": [
+                                                    "enabled",
+                                                    "sensitive",
+                                                    "showing",
+                                                    "visible"
+                                                  ],
+                                                  "interfaces": [
+                                                    "Accessible",
+                                                    "Action",
+                                                    "Component",
+                                                    "Text"
+                                                  ]
+                                                },
+                                                {
+                                                  "role": "filler",
+                                                  "name": "",
+                                                  "states": [
+                                                    "enabled",
+                                                    "sensitive",
+                                                    "showing",
+                                                    "visible"
+                                                  ],
+                                                  "interfaces": [
+                                                    "Accessible",
+                                                    "Action",
+                                                    "Component"
+                                                  ]
+                                                },
+                                                {
+                                                  "role": "separator",
+                                                  "name": "",
+                                                  "states": [
+                                                    "enabled",
+                                                    "sensitive",
+                                                    "showing",
+                                                    "visible"
+                                                  ],
+                                                  "interfaces": [
+                                                    "Accessible",
+                                                    "Action",
+                                                    "Component"
+                                                  ]
+                                                },
+                                                {
+                                                  "role": "page tab",
+                                                  "name": "Quick Settings",
+                                                  "states": [
+                                                    "enabled",
+                                                    "focusable",
+                                                    "focused",
+                                                    "sensitive",
+                                                    "showing",
+                                                    "visible"
+                                                  ],
+                                                  "interfaces": [
+                                                    "Accessible",
+                                                    "Action",
+                                                    "Component"
+                                                  ],
+                                                  "children": [
+                                                    {
+                                                      "role": "panel",
+                                                      "name": "",
+                                                      "states": [
+                                                        "enabled",
+                                                        "focused",
+                                                        "sensitive",
+                                                        "showing",
+                                                        "visible"
+                                                      ],
+                                                      "interfaces": [
+                                                        "Accessible",
+                                                        "Action",
+                                                        "Component"
+                                                      ],
+                                                      "children": [
+                                                        {
+                                                          "role": "form",
+                                                          "name": "",
+                                                          "states": [
+                                                            "enabled",
+                                                            "sensitive",
+                                                            "showing",
+                                                            "visible"
+                                                          ],
+                                                          "interfaces": [
+                                                            "Accessible",
+                                                            "Action",
+                                                            "Component"
+                                                          ],
+                                                          "children": [
+                                                            {
+                                                              "role": "heading",
+                                                              "name": "Theme:",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component",
+                                                                "Text"
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "heading",
+                                                              "name": "",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component",
+                                                                "Text"
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "heading",
+                                                              "name": "More appearance settings:",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component",
+                                                                "Text"
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "heading",
+                                                              "name": "",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component",
+                                                                "Text"
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "heading",
+                                                              "name": "Animation speed:",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component",
+                                                                "Text"
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "heading",
+                                                              "name": "",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component",
+                                                                "Text"
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "heading",
+                                                              "name": "Clicking files or folders:",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component",
+                                                                "Text"
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "heading",
+                                                              "name": "",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component",
+                                                                "Text"
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "heading",
+                                                              "name": "",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component",
+                                                                "Text"
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "heading",
+                                                              "name": "More behavior settings:",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component",
+                                                                "Text"
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "heading",
+                                                              "name": "",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component",
+                                                                "Text"
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "heading",
+                                                              "name": "Most used pages:",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component",
+                                                                "Text"
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "filler",
+                                                              "name": "",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component"
+                                                              ],
+                                                              "children": [
+                                                                {
+                                                                  "role": "radio button",
+                                                                  "name": "Kubuntu Light",
+                                                                  "states": [
+                                                                    "enabled",
+                                                                    "focusable",
+                                                                    "sensitive",
+                                                                    "showing",
+                                                                    "visible",
+                                                                    "checkable"
+                                                                  ],
+                                                                  "interfaces": [
+                                                                    "Accessible",
+                                                                    "Action",
+                                                                    "Component"
+                                                                  ],
+                                                                  "children": [
+                                                                    {
+                                                                      "role": "radio button",
+                                                                      "name": "",
+                                                                      "states": [
+                                                                        "enabled",
+                                                                        "focusable",
+                                                                        "sensitive",
+                                                                        "showing",
+                                                                        "visible",
+                                                                        "checkable"
+                                                                      ],
+                                                                      "interfaces": [
+                                                                        "Accessible",
+                                                                        "Action",
+                                                                        "Component"
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "role": "push button menu",
+                                                                      "name": "Change global theme",
+                                                                      "states": [
+                                                                        "enabled",
+                                                                        "focusable",
+                                                                        "sensitive",
+                                                                        "showing",
+                                                                        "visible"
+                                                                      ],
+                                                                      "interfaces": [
+                                                                        "Accessible",
+                                                                        "Action",
+                                                                        "Component"
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "role": "label",
+                                                                      "name": "Kubuntu Light",
+                                                                      "states": [
+                                                                        "enabled",
+                                                                        "focusable",
+                                                                        "sensitive",
+                                                                        "showing",
+                                                                        "visible",
+                                                                        "read-only"
+                                                                      ],
+                                                                      "interfaces": [
+                                                                        "Accessible",
+                                                                        "Action",
+                                                                        "Component",
+                                                                        "Text"
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "role": "radio button",
+                                                                  "name": "Kubuntu Dark",
+                                                                  "states": [
+                                                                    "enabled",
+                                                                    "focusable",
+                                                                    "sensitive",
+                                                                    "showing",
+                                                                    "visible",
+                                                                    "checkable"
+                                                                  ],
+                                                                  "interfaces": [
+                                                                    "Accessible",
+                                                                    "Action",
+                                                                    "Component"
+                                                                  ],
+                                                                  "children": [
+                                                                    {
+                                                                      "role": "radio button",
+                                                                      "name": "",
+                                                                      "states": [
+                                                                        "enabled",
+                                                                        "focusable",
+                                                                        "sensitive",
+                                                                        "showing",
+                                                                        "visible",
+                                                                        "checkable"
+                                                                      ],
+                                                                      "interfaces": [
+                                                                        "Accessible",
+                                                                        "Action",
+                                                                        "Component"
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "role": "push button menu",
+                                                                      "name": "Change global theme",
+                                                                      "states": [
+                                                                        "enabled",
+                                                                        "focusable",
+                                                                        "sensitive",
+                                                                        "showing",
+                                                                        "visible"
+                                                                      ],
+                                                                      "interfaces": [
+                                                                        "Accessible",
+                                                                        "Action",
+                                                                        "Component"
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "role": "label",
+                                                                      "name": "Kubuntu Dark",
+                                                                      "states": [
+                                                                        "enabled",
+                                                                        "focusable",
+                                                                        "sensitive",
+                                                                        "showing",
+                                                                        "visible",
+                                                                        "read-only"
+                                                                      ],
+                                                                      "interfaces": [
+                                                                        "Accessible",
+                                                                        "Action",
+                                                                        "Component",
+                                                                        "Text"
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "role": "radio button",
+                                                                  "name": "Automatic",
+                                                                  "states": [
+                                                                    "checked",
+                                                                    "enabled",
+                                                                    "focusable",
+                                                                    "sensitive",
+                                                                    "showing",
+                                                                    "visible",
+                                                                    "checkable"
+                                                                  ],
+                                                                  "interfaces": [
+                                                                    "Accessible",
+                                                                    "Action",
+                                                                    "Component"
+                                                                  ],
+                                                                  "children": [
+                                                                    {
+                                                                      "role": "label",
+                                                                      "name": "Automatic",
+                                                                      "states": [
+                                                                        "enabled",
+                                                                        "focusable",
+                                                                        "sensitive",
+                                                                        "showing",
+                                                                        "visible",
+                                                                        "read-only"
+                                                                      ],
+                                                                      "interfaces": [
+                                                                        "Accessible",
+                                                                        "Action",
+                                                                        "Component",
+                                                                        "Text"
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "filler",
+                                                              "name": "",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component"
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "filler",
+                                                              "name": "",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component"
+                                                              ],
+                                                              "children": [
+                                                                {
+                                                                  "role": "button",
+                                                                  "name": "Wallpaper",
+                                                                  "states": [
+                                                                    "enabled",
+                                                                    "focusable",
+                                                                    "sensitive",
+                                                                    "showing",
+                                                                    "visible"
+                                                                  ],
+                                                                  "interfaces": [
+                                                                    "Accessible",
+                                                                    "Action",
+                                                                    "Component"
+                                                                  ],
+                                                                  "children": [
+                                                                    {
+                                                                      "role": "label",
+                                                                      "name": "Wallpaper",
+                                                                      "states": [
+                                                                        "enabled",
+                                                                        "focusable",
+                                                                        "sensitive",
+                                                                        "showing",
+                                                                        "visible",
+                                                                        "read-only"
+                                                                      ],
+                                                                      "interfaces": [
+                                                                        "Accessible",
+                                                                        "Action",
+                                                                        "Component",
+                                                                        "Text"
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "role": "button",
+                                                                  "name": "Global Theme",
+                                                                  "states": [
+                                                                    "enabled",
+                                                                    "focusable",
+                                                                    "sensitive",
+                                                                    "showing",
+                                                                    "visible"
+                                                                  ],
+                                                                  "interfaces": [
+                                                                    "Accessible",
+                                                                    "Action",
+                                                                    "Component"
+                                                                  ],
+                                                                  "children": [
+                                                                    {
+                                                                      "role": "label",
+                                                                      "name": "Global Theme",
+                                                                      "states": [
+                                                                        "enabled",
+                                                                        "focusable",
+                                                                        "sensitive",
+                                                                        "showing",
+                                                                        "visible",
+                                                                        "read-only"
+                                                                      ],
+                                                                      "interfaces": [
+                                                                        "Accessible",
+                                                                        "Action",
+                                                                        "Component",
+                                                                        "Text"
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "separator",
+                                                              "name": "",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component"
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "filler",
+                                                              "name": "",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component"
+                                                              ],
+                                                              "children": [
+                                                                {
+                                                                  "role": "slider",
+                                                                  "name": "Animation speed:",
+                                                                  "states": [
+                                                                    "enabled",
+                                                                    "focusable",
+                                                                    "sensitive",
+                                                                    "showing",
+                                                                    "visible"
+                                                                  ],
+                                                                  "interfaces": [
+                                                                    "Accessible",
+                                                                    "Action",
+                                                                    "Component",
+                                                                    "Value"
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "role": "label",
+                                                                  "name": "Slow",
+                                                                  "states": [
+                                                                    "enabled",
+                                                                    "focusable",
+                                                                    "sensitive",
+                                                                    "showing",
+                                                                    "visible",
+                                                                    "read-only"
+                                                                  ],
+                                                                  "interfaces": [
+                                                                    "Accessible",
+                                                                    "Action",
+                                                                    "Component",
+                                                                    "Text"
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "role": "label",
+                                                                  "name": "Instant",
+                                                                  "states": [
+                                                                    "enabled",
+                                                                    "focusable",
+                                                                    "sensitive",
+                                                                    "showing",
+                                                                    "visible",
+                                                                    "read-only"
+                                                                  ],
+                                                                  "interfaces": [
+                                                                    "Accessible",
+                                                                    "Action",
+                                                                    "Component",
+                                                                    "Text"
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "filler",
+                                                              "name": "",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component"
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "filler",
+                                                              "name": "",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component"
+                                                              ],
+                                                              "children": [
+                                                                {
+                                                                  "role": "radio button",
+                                                                  "name": "Selects them",
+                                                                  "states": [
+                                                                    "enabled",
+                                                                    "focusable",
+                                                                    "sensitive",
+                                                                    "showing",
+                                                                    "visible",
+                                                                    "checkable"
+                                                                  ],
+                                                                  "interfaces": [
+                                                                    "Accessible",
+                                                                    "Action",
+                                                                    "Component"
+                                                                  ],
+                                                                  "children": [
+                                                                    {
+                                                                      "role": "label",
+                                                                      "name": "Selects them",
+                                                                      "states": [
+                                                                        "enabled",
+                                                                        "focusable",
+                                                                        "sensitive",
+                                                                        "showing",
+                                                                        "visible",
+                                                                        "read-only"
+                                                                      ],
+                                                                      "interfaces": [
+                                                                        "Accessible",
+                                                                        "Action",
+                                                                        "Component",
+                                                                        "Text"
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "role": "label",
+                                                                  "name": "Open by double-clicking instead",
+                                                                  "states": [
+                                                                    "enabled",
+                                                                    "focusable",
+                                                                    "sensitive",
+                                                                    "showing",
+                                                                    "visible",
+                                                                    "read-only"
+                                                                  ],
+                                                                  "interfaces": [
+                                                                    "Accessible",
+                                                                    "Action",
+                                                                    "Component",
+                                                                    "Text"
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "filler",
+                                                              "name": "",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component"
+                                                              ],
+                                                              "children": [
+                                                                {
+                                                                  "role": "radio button",
+                                                                  "name": "Opens them",
+                                                                  "states": [
+                                                                    "checked",
+                                                                    "enabled",
+                                                                    "focusable",
+                                                                    "sensitive",
+                                                                    "showing",
+                                                                    "visible",
+                                                                    "checkable"
+                                                                  ],
+                                                                  "interfaces": [
+                                                                    "Accessible",
+                                                                    "Action",
+                                                                    "Component"
+                                                                  ],
+                                                                  "children": [
+                                                                    {
+                                                                      "role": "label",
+                                                                      "name": "Opens them",
+                                                                      "states": [
+                                                                        "enabled",
+                                                                        "focusable",
+                                                                        "sensitive",
+                                                                        "showing",
+                                                                        "visible",
+                                                                        "read-only"
+                                                                      ],
+                                                                      "interfaces": [
+                                                                        "Accessible",
+                                                                        "Action",
+                                                                        "Component",
+                                                                        "Text"
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "role": "label",
+                                                                  "name": "Select by clicking on item's selection marker",
+                                                                  "states": [
+                                                                    "enabled",
+                                                                    "focusable",
+                                                                    "sensitive",
+                                                                    "showing",
+                                                                    "visible",
+                                                                    "read-only"
+                                                                  ],
+                                                                  "interfaces": [
+                                                                    "Accessible",
+                                                                    "Action",
+                                                                    "Component",
+                                                                    "Text"
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "filler",
+                                                              "name": "",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component"
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "button",
+                                                              "name": "General Behavior",
+                                                              "states": [
+                                                                "enabled",
+                                                                "focusable",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component"
+                                                              ],
+                                                              "children": [
+                                                                {
+                                                                  "role": "label",
+                                                                  "name": "General Behavior",
+                                                                  "states": [
+                                                                    "enabled",
+                                                                    "focusable",
+                                                                    "sensitive",
+                                                                    "showing",
+                                                                    "visible",
+                                                                    "read-only"
+                                                                  ],
+                                                                  "interfaces": [
+                                                                    "Accessible",
+                                                                    "Action",
+                                                                    "Component",
+                                                                    "Text"
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "separator",
+                                                              "name": "",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component"
+                                                              ]
+                                                            },
+                                                            {
+                                                              "role": "filler",
+                                                              "name": "",
+                                                              "states": [
+                                                                "enabled",
+                                                                "sensitive",
+                                                                "showing",
+                                                                "visible"
+                                                              ],
+                                                              "interfaces": [
+                                                                "Accessible",
+                                                                "Action",
+                                                                "Component"
+                                                              ],
+                                                              "children": [
+                                                                {
+                                                                  "role": "button",
+                                                                  "name": "Keyboard",
+                                                                  "states": [
+                                                                    "enabled",
+                                                                    "focusable",
+                                                                    "sensitive",
+                                                                    "showing",
+                                                                    "visible"
+                                                                  ],
+                                                                  "interfaces": [
+                                                                    "Accessible",
+                                                                    "Action",
+                                                                    "Component"
+                                                                  ],
+                                                                  "children": [
+                                                                    {
+                                                                      "role": "label",
+                                                                      "name": "Keyboard",
+                                                                      "states": [
+                                                                        "enabled",
+                                                                        "focusable",
+                                                                        "sensitive",
+                                                                        "showing",
+                                                                        "visible",
+                                                                        "read-only"
+                                                                      ],
+                                                                      "interfaces": [
+                                                                        "Accessible",
+                                                                        "Action",
+                                                                        "Component",
+                                                                        "Text"
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "role": "button",
+                                                                  "name": "Wi-Fi & Networking",
+                                                                  "states": [
+                                                                    "enabled",
+                                                                    "focusable",
+                                                                    "sensitive",
+                                                                    "showing",
+                                                                    "visible"
+                                                                  ],
+                                                                  "interfaces": [
+                                                                    "Accessible",
+                                                                    "Action",
+                                                                    "Component"
+                                                                  ],
+                                                                  "children": [
+                                                                    {
+                                                                      "role": "label",
+                                                                      "name": "Wi-Fi & Networking",
+                                                                      "states": [
+                                                                        "enabled",
+                                                                        "focusable",
+                                                                        "sensitive",
+                                                                        "showing",
+                                                                        "visible",
+                                                                        "read-only"
+                                                                      ],
+                                                                      "interfaces": [
+                                                                        "Accessible",
+                                                                        "Action",
+                                                                        "Component",
+                                                                        "Text"
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "role": "button",
+                                                                  "name": "Window Behavior",
+                                                                  "states": [
+                                                                    "enabled",
+                                                                    "focusable",
+                                                                    "sensitive",
+                                                                    "showing",
+                                                                    "visible"
+                                                                  ],
+                                                                  "interfaces": [
+                                                                    "Accessible",
+                                                                    "Action",
+                                                                    "Component"
+                                                                  ],
+                                                                  "children": [
+                                                                    {
+                                                                      "role": "label",
+                                                                      "name": "Window Behavior",
+                                                                      "states": [
+                                                                        "enabled",
+                                                                        "focusable",
+                                                                        "sensitive",
+                                                                        "showing",
+                                                                        "visible",
+                                                                        "read-only"
+                                                                      ],
+                                                                      "interfaces": [
+                                                                        "Accessible",
+                                                                        "Action",
+                                                                        "Component",
+                                                                        "Text"
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "role": "button",
+                                                                  "name": "Mouse",
+                                                                  "states": [
+                                                                    "enabled",
+                                                                    "focusable",
+                                                                    "sensitive",
+                                                                    "showing",
+                                                                    "visible"
+                                                                  ],
+                                                                  "interfaces": [
+                                                                    "Accessible",
+                                                                    "Action",
+                                                                    "Component"
+                                                                  ],
+                                                                  "children": [
+                                                                    {
+                                                                      "role": "label",
+                                                                      "name": "Mouse",
+                                                                      "states": [
+                                                                        "enabled",
+                                                                        "focusable",
+                                                                        "sensitive",
+                                                                        "showing",
+                                                                        "visible",
+                                                                        "read-only"
+                                                                      ],
+                                                                      "interfaces": [
+                                                                        "Accessible",
+                                                                        "Action",
+                                                                        "Component",
+                                                                        "Text"
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "role": "button",
+                                                                  "name": "Display Configuration",
+                                                                  "states": [
+                                                                    "enabled",
+                                                                    "focusable",
+                                                                    "sensitive",
+                                                                    "showing",
+                                                                    "visible"
+                                                                  ],
+                                                                  "interfaces": [
+                                                                    "Accessible",
+                                                                    "Action",
+                                                                    "Component"
+                                                                  ],
+                                                                  "children": [
+                                                                    {
+                                                                      "role": "label",
+                                                                      "name": "Display Configuration",
+                                                                      "states": [
+                                                                        "enabled",
+                                                                        "focusable",
+                                                                        "sensitive",
+                                                                        "showing",
+                                                                        "visible",
+                                                                        "read-only"
+                                                                      ],
+                                                                      "interfaces": [
+                                                                        "Accessible",
+                                                                        "Action",
+                                                                        "Component",
+                                                                        "Text"
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "role": "button",
+                                                                  "name": "Day-Night Cycle",
+                                                                  "states": [
+                                                                    "enabled",
+                                                                    "focusable",
+                                                                    "sensitive",
+                                                                    "showing",
+                                                                    "visible"
+                                                                  ],
+                                                                  "interfaces": [
+                                                                    "Accessible",
+                                                                    "Action",
+                                                                    "Component"
+                                                                  ],
+                                                                  "children": [
+                                                                    {
+                                                                      "role": "label",
+                                                                      "name": "Day-Night Cycle",
+                                                                      "states": [
+                                                                        "enabled",
+                                                                        "focusable",
+                                                                        "sensitive",
+                                                                        "showing",
+                                                                        "visible",
+                                                                        "read-only"
+                                                                      ],
+                                                                      "interfaces": [
+                                                                        "Accessible",
+                                                                        "Action",
+                                                                        "Component",
+                                                                        "Text"
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "role": "scroll bar",
+                                                          "name": "",
+                                                          "states": [
+                                                            "enabled",
+                                                            "focusable",
+                                                            "sensitive"
+                                                          ],
+                                                          "interfaces": [
+                                                            "Accessible",
+                                                            "Action",
+                                                            "Value"
+                                                          ]
+                                                        },
+                                                        {
+                                                          "role": "scroll bar",
+                                                          "name": "",
+                                                          "states": [
+                                                            "enabled",
+                                                            "focusable",
+                                                            "sensitive"
+                                                          ],
+                                                          "interfaces": [
+                                                            "Accessible",
+                                                            "Action",
+                                                            "Value"
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "role": "separator",
+                                                      "name": "",
+                                                      "states": [
+                                                        "enabled",
+                                                        "sensitive"
+                                                      ],
+                                                      "interfaces": [
+                                                        "Accessible",
+                                                        "Action"
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "role": "separator",
+                                              "name": "",
+                                              "states": [
+                                                "enabled",
+                                                "sensitive"
+                                              ],
+                                              "interfaces": [
+                                                "Accessible",
+                                                "Action"
+                                              ]
+                                            },
+                                            {
+                                              "role": "separator",
+                                              "name": "",
+                                              "states": [
+                                                "enabled",
+                                                "sensitive"
+                                              ],
+                                              "interfaces": [
+                                                "Accessible",
+                                                "Action"
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "role": "button",
+                                          "name": "",
+                                          "states": [
+                                            "enabled",
+                                            "focusable",
+                                            "sensitive"
+                                          ],
+                                          "interfaces": [
+                                            "Accessible",
+                                            "Action"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "role": "filler",
+                      "name": "",
+                      "states": [
+                        "enabled",
+                        "sensitive"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ],
+                      "children": [
+                        {
+                          "role": "label",
+                          "name": "",
+                          "states": [
+                            "enabled",
+                            "focusable",
+                            "sensitive",
+                            "read-only"
+                          ],
+                          "interfaces": [
+                            "Accessible",
+                            "Action",
+                            "Component"
+                          ]
+                        },
+                        {
+                          "role": "label",
+                          "name": "",
+                          "states": [
+                            "enabled",
+                            "sensitive",
+                            "read-only"
+                          ],
+                          "interfaces": [
+                            "Accessible",
+                            "Action",
+                            "Component"
+                          ]
+                        },
+                        {
+                          "role": "label",
+                          "name": "",
+                          "states": [
+                            "enabled",
+                            "focusable",
+                            "sensitive",
+                            "read-only"
+                          ],
+                          "interfaces": [
+                            "Accessible",
+                            "Action",
+                            "Component"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "role": "panel",
+                      "name": "",
+                      "states": [
+                        "enabled",
+                        "sensitive"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ]
+                    },
+                    {
+                      "role": "tool bar",
+                      "name": "",
+                      "states": [
+                        "enabled",
+                        "sensitive"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ],
+                      "children": [
+                        {
+                          "role": "push button menu",
+                          "name": "",
+                          "states": [
+                            "checkable",
+                            "has-popup"
+                          ],
+                          "interfaces": [
+                            "Accessible",
+                            "Action",
+                            "Component"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "role": "filler",
+                      "name": "",
+                      "states": [
+                        "enabled",
+                        "sensitive"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ],
+                      "children": [
+                        {
+                          "role": "text",
+                          "name": "",
+                          "states": [
+                            "editable",
+                            "focusable"
+                          ],
+                          "interfaces": [
+                            "Accessible",
+                            "Action",
+                            "Component",
+                            "EditableText",
+                            "Text"
+                          ],
+                          "children": [
+                            {
+                              "role": "button",
+                              "name": "",
+                              "states": [],
+                              "interfaces": [
+                                "Accessible",
+                                "Action",
+                                "Component"
+                              ]
+                            },
+                            {
+                              "role": "button",
+                              "name": "",
+                              "states": [],
+                              "interfaces": [
+                                "Accessible",
+                                "Action",
+                                "Component"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "role": "filler",
+                      "name": "",
+                      "states": [
+                        "enabled",
+                        "focusable",
+                        "sensitive"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ],
+                      "children": [
+                        {
+                          "role": "filler",
+                          "name": "",
+                          "states": [
+                            "enabled",
+                            "sensitive"
+                          ],
+                          "interfaces": [
+                            "Accessible",
+                            "Action",
+                            "Component"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "role": "filler",
+                  "name": "",
+                  "states": [
+                    "enabled",
+                    "sensitive"
+                  ],
+                  "interfaces": [
+                    "Accessible",
+                    "Action",
+                    "Component"
+                  ],
+                  "children": [
+                    {
+                      "role": "label",
+                      "name": "",
+                      "states": [
+                        "enabled",
+                        "focusable",
+                        "sensitive",
+                        "read-only"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ]
+                    },
+                    {
+                      "role": "label",
+                      "name": "",
+                      "states": [
+                        "enabled",
+                        "sensitive",
+                        "read-only"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ]
+                    },
+                    {
+                      "role": "label",
+                      "name": "",
+                      "states": [
+                        "enabled",
+                        "focusable",
+                        "sensitive",
+                        "read-only"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "role": "panel",
+                  "name": "",
+                  "states": [
+                    "enabled",
+                    "sensitive",
+                    "showing",
+                    "visible"
+                  ],
+                  "interfaces": [
+                    "Accessible",
+                    "Action",
+                    "Component"
+                  ],
+                  "children": [
+                    {
+                      "role": "button",
+                      "name": "Apply",
+                      "states": [
+                        "focusable",
+                        "showing",
+                        "visible"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ]
+                    },
+                    {
+                      "role": "button",
+                      "name": "Defaults",
+                      "states": [
+                        "enabled",
+                        "focusable",
+                        "sensitive"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ]
+                    },
+                    {
+                      "role": "button",
+                      "name": "Reset",
+                      "states": [
+                        "focusable",
+                        "showing",
+                        "visible"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ]
+                    },
+                    {
+                      "role": "button",
+                      "name": "Help",
+                      "states": [
+                        "focusable"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "role": "filler",
+              "name": "",
+              "states": [
+                "enabled",
+                "focusable",
+                "sensitive",
+                "showing",
+                "visible"
+              ],
+              "interfaces": [
+                "Accessible",
+                "Action",
+                "Component"
+              ],
+              "children": [
+                {
+                  "role": "filler",
+                  "name": "",
+                  "states": [
+                    "enabled",
+                    "sensitive",
+                    "showing",
+                    "visible"
+                  ],
+                  "interfaces": [
+                    "Accessible",
+                    "Action",
+                    "Component"
+                  ],
+                  "children": [
+                    {
+                      "role": "panel",
+                      "name": "",
+                      "states": [
+                        "enabled",
+                        "sensitive",
+                        "showing",
+                        "visible"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ],
+                      "children": [
+                        {
+                          "role": "page tab",
+                          "name": "",
+                          "states": [
+                            "enabled",
+                            "focusable",
+                            "sensitive",
+                            "showing",
+                            "visible"
+                          ],
+                          "interfaces": [
+                            "Accessible",
+                            "Action",
+                            "Component"
+                          ],
+                          "children": [
+                            {
+                              "role": "panel",
+                              "name": "",
+                              "states": [
+                                "enabled",
+                                "sensitive",
+                                "showing",
+                                "visible"
+                              ],
+                              "interfaces": [
+                                "Accessible",
+                                "Action",
+                                "Component"
+                              ],
+                              "children": [
+                                {
+                                  "role": "list",
+                                  "name": "",
+                                  "states": [
+                                    "enabled",
+                                    "focusable",
+                                    "sensitive",
+                                    "showing",
+                                    "visible"
+                                  ],
+                                  "interfaces": [
+                                    "Accessible",
+                                    "Action",
+                                    "Component"
+                                  ],
+                                  "children": [
+                                    {
+                                      "role": "list item",
+                                      "name": "Quick Settings",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Mouse & Touchpad",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "heading",
+                                      "name": "Input  Output",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component",
+                                        "Text"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Keyboard",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Multimedia",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Game Controller",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Sound",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Display & Monitor",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Accessibility",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Bluetooth",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ],
+                                      "children": [
+                                        {
+                                          "role": "check box",
+                                          "name": "Enable Bluetooth",
+                                          "states": [
+                                            "checked",
+                                            "enabled",
+                                            "focusable",
+                                            "sensitive",
+                                            "showing",
+                                            "visible",
+                                            "checkable"
+                                          ],
+                                          "interfaces": [
+                                            "Accessible",
+                                            "Action",
+                                            "Component"
+                                          ],
+                                          "children": [
+                                            {
+                                              "role": "label",
+                                              "name": "",
+                                              "states": [
+                                                "enabled",
+                                                "focusable",
+                                                "sensitive",
+                                                "read-only"
+                                              ],
+                                              "interfaces": [
+                                                "Accessible",
+                                                "Action",
+                                                "Text"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "role": "heading",
+                                      "name": "Connected Devices",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component",
+                                        "Text"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Disks & Cameras",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Thunderbolt",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Printers",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Wi-Fi & Internet",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "heading",
+                                      "name": "Networking",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component",
+                                        "Text"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Push Notifications",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Wallpaper",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "heading",
+                                      "name": "Appearance  Style",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component",
+                                        "Text"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Colors & Themes",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Text & Fonts",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Animations",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Default Applications",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "heading",
+                                      "name": "Apps  Windows",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component",
+                                        "Text"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Notifications",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Window Management",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "list item",
+                                      "name": "Activities",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive",
+                                        "showing",
+                                        "transient",
+                                        "visible"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component"
+                                      ]
+                                    },
+                                    {
+                                      "role": "heading",
+                                      "name": "Workspace",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component",
+                                        "Text"
+                                      ]
+                                    },
+                                    {
+                                      "role": "heading",
+                                      "name": "Personalization",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component",
+                                        "Text"
+                                      ]
+                                    },
+                                    {
+                                      "role": "heading",
+                                      "name": "Security  Privacy",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Component",
+                                        "Text"
+                                      ]
+                                    },
+                                    {
+                                      "role": "heading",
+                                      "name": "Language  Time",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Text"
+                                      ]
+                                    },
+                                    {
+                                      "role": "heading",
+                                      "name": "System",
+                                      "states": [
+                                        "enabled",
+                                        "sensitive"
+                                      ],
+                                      "interfaces": [
+                                        "Accessible",
+                                        "Action",
+                                        "Text"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "role": "scroll bar",
+                                  "name": "",
+                                  "states": [
+                                    "enabled",
+                                    "focusable",
+                                    "sensitive"
+                                  ],
+                                  "interfaces": [
+                                    "Accessible",
+                                    "Action",
+                                    "Value"
+                                  ]
+                                },
+                                {
+                                  "role": "scroll bar",
+                                  "name": "",
+                                  "states": [
+                                    "enabled",
+                                    "focusable",
+                                    "sensitive",
+                                    "showing",
+                                    "visible"
+                                  ],
+                                  "interfaces": [
+                                    "Accessible",
+                                    "Action",
+                                    "Component",
+                                    "Value"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "role": "separator",
+                              "name": "",
+                              "states": [
+                                "enabled",
+                                "sensitive"
+                              ],
+                              "interfaces": [
+                                "Accessible",
+                                "Action"
+                              ]
+                            },
+                            {
+                              "role": "button",
+                              "name": "",
+                              "states": [
+                                "enabled",
+                                "focusable",
+                                "sensitive"
+                              ],
+                              "interfaces": [
+                                "Accessible",
+                                "Action"
+                              ]
+                            },
+                            {
+                              "role": "text",
+                              "name": "Search",
+                              "states": [
+                                "editable",
+                                "enabled",
+                                "focusable",
+                                "sensitive",
+                                "showing",
+                                "visible"
+                              ],
+                              "interfaces": [
+                                "Accessible",
+                                "Action",
+                                "Component",
+                                "Text"
+                              ],
+                              "children": [
+                                {
+                                  "role": "button",
+                                  "name": "Clear search",
+                                  "states": [
+                                    "enabled",
+                                    "focusable",
+                                    "sensitive"
+                                  ],
+                                  "interfaces": [
+                                    "Accessible",
+                                    "Action"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "role": "push button menu",
+                              "name": "Show menu",
+                              "states": [
+                                "enabled",
+                                "focusable",
+                                "sensitive",
+                                "showing",
+                                "visible",
+                                "checkable"
+                              ],
+                              "interfaces": [
+                                "Accessible",
+                                "Action",
+                                "Component"
+                              ]
+                            },
+                            {
+                              "role": "separator",
+                              "name": "",
+                              "states": [
+                                "enabled",
+                                "sensitive",
+                                "showing",
+                                "visible"
+                              ],
+                              "interfaces": [
+                                "Accessible",
+                                "Action",
+                                "Component"
+                              ]
+                            },
+                            {
+                              "role": "separator",
+                              "name": "",
+                              "states": [
+                                "enabled",
+                                "sensitive"
+                              ],
+                              "interfaces": [
+                                "Accessible",
+                                "Action"
+                              ]
+                            },
+                            {
+                              "role": "separator",
+                              "name": "",
+                              "states": [
+                                "enabled",
+                                "sensitive"
+                              ],
+                              "interfaces": [
+                                "Accessible",
+                                "Action"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "role": "page tab",
+                  "name": "Quick Settings",
+                  "states": [
+                    "showing",
+                    "visible"
+                  ],
+                  "interfaces": [
+                    "Accessible",
+                    "Action",
+                    "Component"
+                  ],
+                  "children": [
+                    {
+                      "role": "panel",
+                      "name": "",
+                      "states": [],
+                      "interfaces": [
+                        "Accessible",
+                        "Action"
+                      ],
+                      "children": [
+                        {
+                          "role": "list",
+                          "name": "",
+                          "states": [],
+                          "interfaces": [
+                            "Accessible",
+                            "Action"
+                          ]
+                        },
+                        {
+                          "role": "scroll bar",
+                          "name": "",
+                          "states": [],
+                          "interfaces": [
+                            "Accessible",
+                            "Action",
+                            "Value"
+                          ]
+                        },
+                        {
+                          "role": "scroll bar",
+                          "name": "",
+                          "states": [],
+                          "interfaces": [
+                            "Accessible",
+                            "Action",
+                            "Value"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "role": "separator",
+                      "name": "",
+                      "states": [],
+                      "interfaces": [
+                        "Accessible",
+                        "Action"
+                      ]
+                    },
+                    {
+                      "role": "button",
+                      "name": "Quick Settings",
+                      "states": [
+                        "showing",
+                        "visible"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ],
+                      "children": [
+                        {
+                          "role": "heading",
+                          "name": "Quick Settings",
+                          "states": [
+                            "showing",
+                            "visible"
+                          ],
+                          "interfaces": [
+                            "Accessible",
+                            "Action",
+                            "Component",
+                            "Text"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "role": "heading",
+                      "name": "Quick Settings",
+                      "states": [],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Text"
+                      ]
+                    },
+                    {
+                      "role": "push button menu",
+                      "name": "Show menu",
+                      "states": [
+                        "showing",
+                        "visible",
+                        "checkable"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ]
+                    },
+                    {
+                      "role": "separator",
+                      "name": "",
+                      "states": [
+                        "showing",
+                        "visible"
+                      ],
+                      "interfaces": [
+                        "Accessible",
+                        "Action",
+                        "Component"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "role": "separator",
+                  "name": "",
+                  "states": [
+                    "enabled",
+                    "sensitive",
+                    "showing",
+                    "visible"
+                  ],
+                  "interfaces": [
+                    "Accessible",
+                    "Action",
+                    "Component"
+                  ]
+                },
+                {
+                  "role": "separator",
+                  "name": "",
+                  "states": [
+                    "enabled",
+                    "sensitive",
+                    "showing",
+                    "visible"
+                  ],
+                  "interfaces": [
+                    "Accessible",
+                    "Action",
+                    "Component"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "filler",
+      "name": "",
+      "states": [
+        "enabled",
+        "sensitive"
+      ],
+      "interfaces": [
+        "Accessible",
+        "Action",
+        "Component"
+      ]
+    },
+    {
+      "role": "menu bar",
+      "name": "",
+      "states": [
+        "enabled",
+        "sensitive"
+      ],
+      "interfaces": [
+        "Accessible",
+        "Action",
+        "Component"
+      ]
+    }
+  ]
+}

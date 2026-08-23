@@ -1,0 +1,55 @@
+{
+  "role": "frame",
+  "name": "",
+  "states": [
+    "enabled",
+    "sensitive"
+  ],
+  "interfaces": [
+    "Accessible",
+    "Component"
+  ],
+  "children": [
+    {
+      "role": "heading",
+      "name": "0",
+      "states": [
+        "enabled",
+        "sensitive"
+      ],
+      "interfaces": [
+        "Accessible",
+        "Action",
+        "Component",
+        "Text"
+      ]
+    },
+    {
+      "role": "progress bar",
+      "name": "",
+      "states": [
+        "enabled",
+        "sensitive",
+        "read-only"
+      ],
+      "interfaces": [
+        "Accessible",
+        "Action",
+        "Value"
+      ]
+    },
+    {
+      "role": "heading",
+      "name": "0%",
+      "states": [
+        "enabled",
+        "sensitive"
+      ],
+      "interfaces": [
+        "Accessible",
+        "Action",
+        "Text"
+      ]
+    }
+  ]
+}
