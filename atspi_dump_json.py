@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # Dumps the AT-SPI accessibility tree of every top-level window into JSON files.
 # Each window goes to a separate file in the dumps directory, then every file is
-# read back from disk and written again as a token-lean variant
-# <same name>-filtered.json.
+# read back from disk and written again as a token-lean flat record list
+# <same name>-filtered.json, and finally compressed into <same name>-filtered2.json.
 
 import gi
 import json
@@ -204,6 +204,109 @@ def write_filtered_dumps():
             f.write('\n')
 
 
+def drop_stage2_states(records):
+    # Rule 1: strip uninformative states from every record. The checked state
+    # string is redundant when the boolean checked field is present.
+    out = []
+    for rec in records:
+        states = rec.get('states')
+        if not states:
+            out.append(rec)
+            continue
+        kept = [s for s in states if s not in ('enabled', 'sensitive')]
+        if 'checked' in rec:
+            kept = [s for s in kept if s != 'checked']
+        rec = dict(rec)
+        if kept:
+            rec['states'] = kept
+        else:
+            rec.pop('states', None)
+        out.append(rec)
+    return out
+
+
+def drop_radio_ghosts(records):
+    # Rule 2: remove an unnamed radio button that repeats the checked value of
+    # the radio button directly before it in the same group.
+    out = []
+    prev = None
+    for rec in records:
+        if (rec.get('role') == 'radio button'
+                and not rec.get('name')
+                and prev is not None
+                and prev.get('role') == 'radio button'
+                and prev.get('checked') == rec.get('checked')):
+            continue
+        out.append(rec)
+        prev = rec
+    return out
+
+
+def dedup_role_name(records):
+    # Rule 3: keep only the first occurrence of each (role, name) pair, but never
+    # remove a real switch that carries a checked field.
+    seen = set()
+    out = []
+    for rec in records:
+        name = rec.get('name')
+        if name and 'checked' not in rec:
+            key = (rec.get('role'), name)
+            if key in seen:
+                continue
+            seen.add(key)
+        out.append(rec)
+    return out
+
+
+def sidebar_node(block):
+    # Builds the folded navigation node from a list item block.
+    return {'role': 'sidebar categories',
+            'items': [item.get('name') for item in block]}
+
+
+def fold_sidebar_items(records):
+    # Rule 4: fold consecutive navigation list items whose states are empty
+    # after rule 1 into one sidebar categories node; headings stay separate.
+    out = []
+    block = []
+    for rec in records:
+        if rec.get('role') == 'list item' and not rec.get('states'):
+            block.append(rec)
+            continue
+        if block:
+            out.append(sidebar_node(block))
+            block = []
+        out.append(rec)
+    if block:
+        out.append(sidebar_node(block))
+    return out
+
+
+def compress_records(records):
+    # Applies the four compression rules in order to the flat record list.
+    records = drop_stage2_states(records)
+    records = drop_radio_ghosts(records)
+    records = dedup_role_name(records)
+    records = fold_sidebar_items(records)
+    return records
+
+
+def write_compressed_dumps():
+    # Reads every first-stage flat list from disk and writes the compressed
+    # variant as <same name>-filtered2.json next to it.
+    for name in sorted(os.listdir(DUMPS_DIR)):
+        if not name.endswith('-filtered.json'):
+            continue
+        src = os.path.join(DUMPS_DIR, name)
+        with open(src) as f:
+            records = json.load(f)
+        compressed = compress_records(records)
+        dest = os.path.join(DUMPS_DIR, name[:-5] + '2.json')
+        with open(dest, 'w') as f:
+            json.dump(compressed, f, ensure_ascii=False, indent=2)
+            f.write('\n')
+
+
 def main():
     # Moves a previous dumps directory aside, then dumps every top-level window
     # into its own file and finally writes the filtered variants from disk.
@@ -264,6 +367,7 @@ def main():
                     json.dump(tree, f, ensure_ascii=False, indent=2)
                     f.write('\n')
     write_filtered_dumps()
+    write_compressed_dumps()
     print('dumps dir: %s' % DUMPS_DIR)
     print('windows dumped: %d' % window_index)
 
