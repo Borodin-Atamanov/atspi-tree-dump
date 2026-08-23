@@ -264,9 +264,12 @@ def main():
                     continue
                 window_index += 1
                 tree = walk(win, 0)
+                app_name = app.get_name() or 'unknown'
                 window_name = win.get_name() or ''
                 if not window_name:
-                    window_name = '%s-%s-%d' % (app.get_name() or 'unknown', role, j)
+                    window_name = '%s-%s-%d' % (app_name, role, j)
+                else:
+                    window_name = '%s — %s' % (app_name, window_name)
                 path = unique_path(DUMPS_DIR, sanitize_file_name(window_name))
                 with open(path, 'w') as f:
                     json.dump(tree, f, ensure_ascii=False, indent=2)
