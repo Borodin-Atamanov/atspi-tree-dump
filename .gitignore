@@ -1,2 +1,3 @@
 dumps/
 *-dumps/
+__pycache__/
