@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # Dumps the AT-SPI accessibility tree of every top-level window into JSON files.
 # Each window goes to a separate file in the dumps directory, then every file is
-# read back from disk and written again as a token-lean flat record list
-# <same name>-filtered.json, and finally compressed into <same name>-filtered2.json.
+# read back from disk and written again as one fully filtered file
+# <same name>-filtered.json.
 
 import gi
 import json
@@ -197,7 +197,8 @@ def write_filtered_dumps():
         src = os.path.join(DUMPS_DIR, name)
         with open(src) as f:
             tree = json.load(f)
-        filtered = filter_window_tree(tree)
+        records = filter_window_tree(tree)
+        filtered = compress_records(records)
         dest = os.path.join(DUMPS_DIR, name[:-5] + '-filtered.json')
         with open(dest, 'w') as f:
             json.dump(filtered, f, ensure_ascii=False, indent=2)
@@ -291,22 +292,6 @@ def compress_records(records):
     return records
 
 
-def write_compressed_dumps():
-    # Reads every first-stage flat list from disk and writes the compressed
-    # variant as <same name>-filtered2.json next to it.
-    for name in sorted(os.listdir(DUMPS_DIR)):
-        if not name.endswith('-filtered.json'):
-            continue
-        src = os.path.join(DUMPS_DIR, name)
-        with open(src) as f:
-            records = json.load(f)
-        compressed = compress_records(records)
-        dest = os.path.join(DUMPS_DIR, name[:-5] + '2.json')
-        with open(dest, 'w') as f:
-            json.dump(compressed, f, ensure_ascii=False, indent=2)
-            f.write('\n')
-
-
 def main():
     # Moves a previous dumps directory aside, then dumps every top-level window
     # into its own file and finally writes the filtered variants from disk.
@@ -367,7 +352,6 @@ def main():
                     json.dump(tree, f, ensure_ascii=False, indent=2)
                     f.write('\n')
     write_filtered_dumps()
-    write_compressed_dumps()
     print('dumps dir: %s' % DUMPS_DIR)
     print('windows dumped: %d' % window_index)
 
