@@ -2,11 +2,7 @@
 # Wrapper for the Meta+Ctrl+Q global shortcut. Runs the AT-SPI dump script from
 # this repository, then shows a one-second notification with the result.
 cd /home/i/Downloads/atspi_dump
-uv run atspi_dump_json.py
+output=$(uv run atspi_dump_json.py 2>&1)
 status=$?
-if [ "$status" -eq 0 ]; then
-    notify-send -t 1000 "AT-SPI dump" "Dump saved"
-else
-    notify-send -t 1000 "AT-SPI dump" "Dump failed"
-fi
+notify-send -t 1000 "AT-SPI dump" "$output"
 exit "$status"
