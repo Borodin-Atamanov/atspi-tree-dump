@@ -43,9 +43,7 @@ def rotate_dumps_dir():
     os.rename(DUMPS_DIR, target)
 
 
-def safe_window_name(name, index):
-    if not name:
-        return 'window_%d' % index
+def sanitize_file_name(name):
     return name.replace('/', '_').replace('\x00', '_')
 
 
@@ -169,7 +167,10 @@ def main():
                     continue
                 window_index += 1
                 tree = walk(win, 0)
-                path = unique_path(DUMPS_DIR, safe_window_name(win.get_name() or '', window_index))
+                window_name = win.get_name() or ''
+                if not window_name:
+                    window_name = '%s-%s-%d' % (app.get_name() or 'unknown', role, j)
+                path = unique_path(DUMPS_DIR, sanitize_file_name(window_name))
                 with open(path, 'w') as f:
                     json.dump(tree, f, ensure_ascii=False, indent=2)
                     f.write('\n')
