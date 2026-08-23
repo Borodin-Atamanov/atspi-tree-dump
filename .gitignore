@@ -1,4 +1,4 @@
-dumps/
+dump/
 *-dumps/
 __pycache__/
 .venv/

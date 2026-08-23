@@ -23,8 +23,8 @@ the script.
 uv venv --system-site-packages
 uv run atspi_dump_json.py
 
-Output in dumps/: <window>.json is the raw tree, <window>-filtered.json is the
-filtered record list.
+Output in dump/: dump/raw/<window>.json is the raw tree, dump/<window>.json is
+the filtered record list with the same name.
 
 ## Structure
 
@@ -35,7 +35,7 @@ src/atspi_tree_dump/ — version source and the bump_version module.
 pyproject.toml — uv project metadata with the dynamic version.
 uv.lock — locked dependency versions.
 .python-version — pinned Python version.
-dumps/ — generated snapshots, ignored by git.
+dump/ — generated snapshots, ignored by git.
 
 ## License
 

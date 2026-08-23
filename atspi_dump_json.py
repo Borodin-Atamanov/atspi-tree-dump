@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # Dumps the AT-SPI accessibility tree of every top-level window into JSON files.
-# Each window goes to a separate file in the dumps directory, then every file is
-# read back from disk and written again as one fully filtered file
-# <same name>-filtered.json.
+# The raw tree of each window goes to dump/raw/<window>.json, then every file is
+# read back from disk and written again as the filtered record list to
+# dump/<window>.json with the same name.
 
 import gi
 import json
@@ -13,9 +13,11 @@ import time
 gi.require_version('Atspi', '2.0')
 from gi.repository import Atspi
 
-# Script location is the base for the dumps directory.
+# Script location is the base for the dump directory.
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DUMPS_DIR = os.path.join(BASE_DIR, 'dumps')
+DUMPS_DIR = os.path.join(BASE_DIR, 'dump')
+# Unfiltered trees live in dump/raw, filtered lists in dump/ with same names.
+RAW_DIR = os.path.join(DUMPS_DIR, 'raw')
 # Overall time budget so a stuck application cannot hang the run forever.
 DEADLINE = time.monotonic() + 30.0
 # Safety cap against pathological nesting depth.
@@ -193,17 +195,17 @@ def filter_window_tree(node):
 
 
 def write_filtered_dumps():
-    # Reads every original dump from disk and writes its filtered variant as
-    # <same name>-filtered.json next to it.
-    for name in sorted(os.listdir(DUMPS_DIR)):
-        if not name.endswith('.json') or name.endswith('-filtered.json'):
+    # Reads every raw dump from dump/raw and writes its filtered variant to
+    # dump/ with the same name, so the folder tells raw from filtered.
+    for name in sorted(os.listdir(RAW_DIR)):
+        if not name.endswith('.json'):
             continue
-        src = os.path.join(DUMPS_DIR, name)
+        src = os.path.join(RAW_DIR, name)
         with open(src) as f:
             tree = json.load(f)
         records = filter_window_tree(tree)
         filtered = compress_records(records)
-        dest = os.path.join(DUMPS_DIR, name[:-5] + '-filtered.json')
+        dest = os.path.join(DUMPS_DIR, name)
         with open(dest, 'w') as f:
             json.dump(filtered, f, ensure_ascii=False, indent=2)
             f.write('\n')
@@ -297,10 +299,11 @@ def compress_records(records):
 
 
 def main():
-    # Moves a previous dumps directory aside, then dumps every top-level window
-    # into its own file and finally writes the filtered variants from disk.
+    # Moves a previous dump directory aside, then dumps every top-level window
+    # into its own raw file and finally writes the filtered variants from disk.
     rotate_dumps_dir()
     os.makedirs(DUMPS_DIR, exist_ok=True)
+    os.makedirs(RAW_DIR, exist_ok=True)
     window_index = 0
     for n in range(8):
         if expired():
@@ -354,12 +357,12 @@ def main():
                     window_name = '%s-%s-%d' % (app_name, role, j)
                 else:
                     window_name = '%s — %s' % (app_name, window_name)
-                path = unique_path(DUMPS_DIR, sanitize_file_name(window_name))
+                path = unique_path(RAW_DIR, sanitize_file_name(window_name))
                 with open(path, 'w') as f:
                     json.dump(tree, f, ensure_ascii=False, indent=2)
                     f.write('\n')
     write_filtered_dumps()
-    print('dumps dir: %s' % DUMPS_DIR)
+    print('dump dir: %s' % DUMPS_DIR)
     print('windows dumped: %d' % window_index)
 
 
