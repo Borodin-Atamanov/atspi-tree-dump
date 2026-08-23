@@ -22,8 +22,8 @@ DEADLINE = time.monotonic() + 30.0
 MAX_DEPTH = 30
 # Roles that identify a top-level window of an application.
 WINDOW_ROLES = ('frame', 'window')
-# States that are near-universal on KDE and carry no information for an agent.
-BOILER_STATES = {'enabled', 'sensitive'}
+# States that are noise for a reading agent and are always dropped from records.
+NOISE_STATES = {'showing', 'visible', 'focusable', 'read-only', 'checkable'}
 
 
 def expired():
@@ -141,62 +141,51 @@ def walk(acc, depth):
     return data
 
 
-def is_decorative_leaf(node):
-    # A leaf that carries no readable data for an agent: no name, text, value,
-    # coordinates, and at most boilerplate states. Such nodes are pure layout.
-    if node.get('children'):
-        return False
-    if node.get('name') or node.get('text') or node.get('value') or node.get('extents'):
-        return False
+def extract_records(node, parent_name, records):
+    # Applies the filtering spec to one node and recurses into its children.
     states = node.get('states') or []
-    return not (set(states) - BOILER_STATES)
+    name = node.get('name') or ''
+    role = node.get('role') or ''
 
+    if 'checkable' in states:
+        # A switch is always recorded, with an explicit checked field, so that
+        # unmarked toggles are never lost.
+        record = {'role': role}
+        if name:
+            record['name'] = name
+        record['checked'] = 'checked' in states
+        meaningful = [s for s in states if s not in NOISE_STATES]
+        if meaningful:
+            record['states'] = meaningful
+        records.append(record)
+        child_parent = name if name else parent_name
+    elif not name:
+        # Technical wrapper such as a container: skip the node itself, keep the
+        # parent name for its children.
+        child_parent = parent_name
+    elif name == parent_name:
+        # Direct text duplicate of the nearest meaningful ancestor: skip it
+        # without saving and without updating the parent name.
+        child_parent = parent_name
+    else:
+        # Meaningful node: save it and propagate its name as the new parent
+        # name for its children.
+        record = {'role': role, 'name': name}
+        meaningful = [s for s in states if s not in NOISE_STATES]
+        if meaningful:
+            record['states'] = meaningful
+        records.append(record)
+        child_parent = name
 
-def is_bare_filler(node):
-    # A filler container that holds no own data, only a single child.
-    return node.get('role') == 'filler' and set(node.keys()) == {'role'}
-
-
-def lean_node(node):
-    # Keeps only fields that carry meaning for a reading agent. Interfaces are
-    # derivable from role plus value and text, so they are dropped. Boilerplate
-    # states are dropped as well.
-    out = {}
-    role = node.get('role')
-    if role:
-        out['role'] = role
-    name = node.get('name')
-    if name:
-        out['name'] = name
-    states = [s for s in (node.get('states') or []) if s not in BOILER_STATES]
-    if states:
-        out['states'] = states
-    for field in ('value', 'text', 'extents'):
-        if node.get(field):
-            out[field] = node[field]
-    return out
+    for child in node.get('children', []):
+        extract_records(child, child_parent, records)
 
 
 def filter_window_tree(node):
-    # Produces the token-lean version of a window tree: decorative leaves are
-    # dropped, single-child fillers are collapsed, and each node is stripped of
-    # derivable and boilerplate fields.
-    if is_decorative_leaf(node):
-        return None
-    children = []
-    for child in node.get('children', []):
-        filtered_child = filter_window_tree(child)
-        if filtered_child is not None:
-            children.append(filtered_child)
-    node = lean_node(node)
-    if children:
-        if len(children) == 1 and is_bare_filler(node):
-            return children[0]
-        node['children'] = children
-    elif set(node.keys()) == {'role'}:
-        # No own data and no surviving children, so it is pure structure.
-        return None
-    return node
+    # Flattens the tree into the ordered list of meaningful records.
+    records = []
+    extract_records(node, '', records)
+    return records
 
 
 def write_filtered_dumps():
