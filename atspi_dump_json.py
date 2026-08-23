@@ -20,9 +20,6 @@ DUMPS_DIR = os.path.join(BASE_DIR, 'dumps')
 DEADLINE = time.monotonic() + 30.0
 # Safety cap against pathological nesting depth.
 MAX_DEPTH = 30
-# Roles that identify a top-level window of an application. The dialog role
-# covers modal dialogs that sit on top of their parent window.
-WINDOW_ROLES = ('frame', 'window', 'dialog')
 # States that are noise for a reading agent and are always dropped from records.
 NOISE_STATES = {'showing', 'visible', 'focusable', 'read-only', 'checkable'}
 
@@ -344,8 +341,11 @@ def main():
                     role = win.get_role_name()
                 except Exception:
                     role = ''
-                if role not in WINDOW_ROLES:
-                    continue
+                # Every top-level child of an application is a window in the
+                # AT-SPI model, so no role whitelist is applied here. Filtering
+                # by role silently dropped whole window types (a modal dialog
+                # was missed this way), which defeats the mission of dumping
+                # every window in the system.
                 window_index += 1
                 tree = walk(win, 0)
                 app_name = app.get_name() or 'unknown'
